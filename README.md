@@ -9,4 +9,4 @@ This repository contains keys and sample QR codes from participating members.
 
 # Contributing
 
-[Issues](https://github.com/Path-Check/ddcc-trust/issues) and [pull requests](https://github.com/Path-Check/ddcc-trust/pulls) are very welcome. Participating members are encoraged to send and update your keys and sample QR codes via Pull Requests. 
+[Issues](https://github.com/WorldHealthOrganization/ddcc-trust/issues) and [pull requests](https://github.com/WorldHealthOrganization/ddcc-trust/pulls) are very welcome. Participating members are encoraged to send and update your keys and sample QR codes via Pull Requests. 

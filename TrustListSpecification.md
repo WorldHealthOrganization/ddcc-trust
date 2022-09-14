@@ -153,18 +153,18 @@ We are currently navigating implementation details of the DID Document signature
 
 Apps ping `did:web:example.com:covid:registry`, which resolves to `https://example.com/covid/registry/did.json` that contains:
 
-```json
+```js
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:example.com:covid:registry",
+  "id": "did:web:example.com:covid:registry", // DID WEB to find this file
   "verificationMethod": [
     {
-      "id": "did:web:example.com:covid:registry#z82Lm3fE94..gAWBoXf",
+      "id": "did:web:example.com:covid:registry#z82Lm3fE94..gAWBoXf", // ID in the current file
       "type": "JsonWebKey2020",
-      "controller": "did:web:z82Lm3fE94owner.com:controller",
+      "controller": "did:web:z82Lm3fE94owner.com:controller", // Can be the current document or the issuer's DID
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-384",
@@ -176,9 +176,9 @@ Apps ping `did:web:example.com:covid:registry`, which resolves to `https://examp
           "MIIBkjCCARigAwIBC...ACHL1KEKamA=="] // Root CA
       }
     }, {
-      "id": "did:web:example.com:covid:registry#z82LkysSYZy8V7Nb...e2e1u65M4",
+      "id": "did:web:example.com:covid:registry#z82LkysSYZy8V7Nb...e2e1u65M4", // ID in the current file
       "type": "JsonWebKey2020",
-      "controller": "did:web:z82LkysSYZy8V7Nbowner.com:controller",
+      "controller": "did:web:z82LkysSYZy8V7Nbowner.com:controller", // Can be the current document or the issuer's DID
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "P-384",
@@ -194,7 +194,7 @@ Apps ping `did:web:example.com:covid:registry`, which resolves to `https://examp
   "proof": {  // LDProof Block
     "type": "Ed25519Signature2020",
     "created": "2022-07-27T16:02:20Z",
-    "verificationMethod": "did:web:example.com:covid:registry-signer#key-1",
+    "verificationMethod": "did:web:example.com:covid:registry-signer#key-1", // Signer of this DID Document
     "proofPurpose": "assertionMethod"
     "proofValue": "QNB13Y7Q9...1tzjn4w=="
   }

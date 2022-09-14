@@ -217,32 +217,32 @@ Country Level Trust Service Provider
 
 ```xml
 <TrustServiceProvider>
-	<TSPInformation>
-		<TSPName>
-			<Name xml:lang="en">Example Provider</Name>
-		</TSPName>
-		<TSPRole xml:lang="en"> Issuer </TSPRole>
-		<TSPLegalName>
-			<Name xml:lang="en">Example Ministry of Public Health</Name>
-		</TSPLegalName>
-		<TrustSchemeName>
-			<Name>example-nation.gccn.train.trust-scheme.en</Name>
-		</TrustSchemeName>
-		<TSPTradeName>
-			<Name xml:lang="en">Example Ministry of Public Health</Name>
-		</TSPTradeName>
+  <TSPInformation>
+    <TSPName>
+      <Name xml:lang="en">Example Provider</Name>
+    </TSPName>
+    <TSPRole xml:lang="en"> Issuer </TSPRole>
+    <TSPLegalName>
+      <Name xml:lang="en">Example Ministry of Public Health</Name>
+    </TSPLegalName>
+    <TrustSchemeName>
+      <Name>example-nation.gccn.train.trust-scheme.en</Name>
+    </TrustSchemeName>
+    <TSPTradeName>
+      <Name xml:lang="en">Example Ministry of Public Health</Name>
+    </TSPTradeName>
            …
-		<TSPService>
-			<ServiceInformation> 
-				<ServiceTypeIdentifier>https://trust-scheme/schema/gccn-schema.json</ServiceTypeIdentifier>
-				<ServiceName>
-					<Name xml:lang="en">The MOH Corona Check Application Coordination</Name>
-				</ServiceName>
-				<ServiceDigitalIdentity>
-					<DigitalId>
-						<DID>did:web:registry:..</DID>
-					</DigitalId>
-				</ServiceDigitalIdentity>
+    <TSPService>
+      <ServiceInformation> 
+        <ServiceTypeIdentifier>https://trust-scheme/schema/gccn-schema.json</ServiceTypeIdentifier>
+        <ServiceName>
+          <Name xml:lang="en">The MOH Corona Check Application Coordination</Name>
+        </ServiceName>
+        <ServiceDigitalIdentity>
+          <DigitalId>
+            <DID>did:web:registry:..</DID>
+          </DigitalId>
+        </ServiceDigitalIdentity>
 ```
 
 Reference Links for TRAIN and ETSI

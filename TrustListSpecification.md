@@ -1,4 +1,4 @@
-## Global Trust Network: Part 1: Trust List Specification
+# Global Trust Network: Part 1: Trust List Specification
 
 **Visibility**: Public<br />
 **Status**: Draft<br />

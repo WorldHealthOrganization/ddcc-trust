@@ -1,0 +1,31 @@
+{
+  "name": "ddcc-did-generator",
+  "version": "0.1.0",
+  "description": "DDCC DID Generator",
+  "scripts": {
+    "test": "mocha",
+    "generate": "node --experimental-json-modules src/generator.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorldHealthOrganization/ddcc-trust.git"
+  },
+  "author": "Vitor Pamplona",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/WorldHealthOrganization/ddcc-trust/issues"
+  },
+  "homepage": "https://github.com/WorldHealthOrganization/ddcc-trust#readme",
+  "dependencies": {
+    "@digitalbazaar/ed25519-signature-2020": "^4.0.1",
+    "@fidm/x509": "^1.2.1",
+    "@pathcheck/did-web-resolver": "^1.0.5",
+    "fs-extra": "^10.1.0",
+    "jsonld-signatures": "^10.0.0", 
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}

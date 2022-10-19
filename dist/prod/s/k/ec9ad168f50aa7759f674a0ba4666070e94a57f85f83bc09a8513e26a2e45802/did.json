@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:ec9ad168f50aa7759f674a0ba4666070e94a57f85f83bc09a8513e26a2e45802",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:ec9ad168f50aa7759f674a0ba4666070e94a57f85f83bc09a8513e26a2e45802#ec9ad168f50aa7759f674a0ba4666070e94a57f85f83bc09a8513e26a2e45802",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:ec9ad168f50aa7759f674a0ba4666070e94a57f85f83bc09a8513e26a2e45802",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "dS8XKcD_JA9N41A084ocLELE5HJG2eDlYGZ7cPearGg",
+        "y": "YV2JjpmpFHwT1lGaWzDHZVt8vMb8Cu3RbkdEtrXv__4",
+        "crv": "P-256",
+        "x5c": [
+          "MIICqjCCAlGgAwIBAgIULOF8IeiITzQrk0CezkvGFY9ykyQwCgYIKoZIzj0EAwIwgbExCzAJBgNVBAYTAklEMRQwEgYDVQQIDAtES0kgSmFrYXJ0YTEYMBYGA1UEBwwPSmFrYXJ0YSBTZWxhdGFuMTEwLwYDVQQKDChLZW1lbnRlcmlhbiBLZXNlaGF0YW4gUmVwdWJsaWsgSW5kb25lc2lhMSYwJAYDVQQLDB1EaWdpdGFsIFRyYW5zZm9ybWF0aW9uIE9mZmljZTEXMBUGA1UEAwwOQ1NDQV9ER0NfSURfMDMwHhcNMjIwMzA0MDQ1NjE3WhcNMjYwMzA0MDQ1NjE3WjCBsTELMAkGA1UEBhMCSUQxFDASBgNVBAgMC0RLSSBKYWthcnRhMRgwFgYDVQQHDA9KYWthcnRhIFNlbGF0YW4xMTAvBgNVBAoMKEtlbWVudGVyaWFuIEtlc2VoYXRhbiBSZXB1YmxpayBJbmRvbmVzaWExJjAkBgNVBAsMHURpZ2l0YWwgVHJhbnNmb3JtYXRpb24gT2ZmaWNlMRcwFQYDVQQDDA5DU0NBX0RHQ19JRF8wMzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHUvFynA/yQPTeNQNPOKHCxCxORyRtng5WBme3D3mqxoYV2JjpmpFHwT1lGaWzDHZVt8vMb8Cu3RbkdEtrXv//6jRTBDMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBTeNAPDGM7M+2iNWmgrSfote7aoDDAKBggqhkjOPQQDAgNHADBEAiBUyhMzI86XNDuuduK8toi93e0VY+wSEe3odB/vpQ6pcAIgZyNIX1IMA0hsFO3YE7Pj2TBa+TgO8NL6o+Quqd3ietc="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zDyjaksT7ZATFa85UZDEEmqPXuEDx9AFTBRo7xmGhqJhEcWpN97bx39emr9cV9yYY7rDg2N6MLZXVRYPyySAFRdY"
+  }
+}

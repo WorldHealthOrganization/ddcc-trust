@@ -1,0 +1,30 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:a57f049ba77a1e9e562982ca0e80cb1b4e68b1e917debaa35d4c113a845eaf99",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:a57f049ba77a1e9e562982ca0e80cb1b4e68b1e917debaa35d4c113a845eaf99#a57f049ba77a1e9e562982ca0e80cb1b4e68b1e917debaa35d4c113a845eaf99",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:a57f049ba77a1e9e562982ca0e80cb1b4e68b1e917debaa35d4c113a845eaf99",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "ic9deZcnG0jsVgYnxrpF-euFc6jr1-nItt68C1A_dukQYE1Nht7gCSOWvTf_q5ZLGGaJidFQHfm1Hj0ovTEeLDMxEQ0zThAWoJw42dIR8vkhrnK3yvmloL3Xd9lg1A7DzLcjno7H93OeHSMhksk2zArCsw-r-wTIbYEHN8rqRmWIxg0TdoAUftCau7D8LZRyW6eCg-GaxziCi3KWkEWi0HvhDohO96MzHRPXRQB_BsDCklNS_TXvjdyc4K5_lKl4yQTklneq63RAuo4iva87fKfVVP6lzBWu_JotedK7bnf1A86523X-qebZZEW0pRZIEPuXERp1MicZrw65_xtoshomolIQb6Cbz_urJUzDCK3d4v_2io0OKI-QgwcuRIhWX-79e7Tf6IafKVwNnPs1Psas0UGsxVHdbAXjN0vrfWxHFYDQ31oVAS0wYpgHIilmD8ilI338eCPPFYhJ1rNrHpqB16bCWpQ073QIAQXPlKmniPkEkKh8Y2GO6-cErayxlaNC5B9ZjI4QoRJDQi6ut2908GmGUOHjePOEr7W9X0gVbGwnPspsKqnjQD4lMdsZZF9TIxjqgoqZhC0N-SmoEg3NKOZ_pRFwAjX4M91H0ENrt6Vjcy-whNtQuzXn60snN2kxSZK4pJju5Nw-kVaNHCGf-3adE3zYWZTv37Q0Ye8",
+        "e": "AQAB",
+        "x5c": [
+          "MIIGfDCCBGSgAwIBAgIIN/aNQV2LVzIwDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNWMQ8wDQYDVQQKDAZJQ1AtQ1YxLzAtBgNVBAsMJkFOQUMtQWdlbmNpYSBOYWNpb25hbCBkYXMgQ29tdW5pY2Fjb2VzMTgwNgYDVQQDDC9FbnRpZGFkZSBkZSBDZXJ0aWZpY2FjYW8gUmFpeiBkZSBDYWJvIFZlcmRlIDAwMTAeFw0yMTEyMDcwOTUyMTBaFw0zMzEyMDQwOTUyMTBaMHExCzAJBgNVBAYTAkNWMQ8wDQYDVQQKDAZJQ1AtQ1YxOzA5BgNVBAsMMk5PU0ktTnVjbGVvIE9wZXJhY2lvbmFsIGRhIFNvY2llZGFkZSBkZSBJbmZvcm1hY2FvMRQwEgYDVQQDDAtOT1NJQ0EgLSBHMjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAInPXXmXJxtI7FYGJ8a6RfnrhXOo69fpyLbevAtQP3bpEGBNTYbe4Akjlr03/6uWSxhmiYnRUB35tR49KL0xHiwzMRENM04QFqCcONnSEfL5Ia5yt8r5paC913fZYNQOw8y3I56Ox/dznh0jIZLJNswKwrMPq/sEyG2BBzfK6kZliMYNE3aAFH7Qmruw/C2UclungoPhmsc4gotylpBFotB74Q6ITvejMx0T10UAfwbAwpJTUv01743cnOCuf5SpeMkE5JZ3qut0QLqOIr2vO3yn1VT+pcwVrvyaLXnSu2539QPOudt1/qnm2WRFtKUWSBD7lxEadTInGa8Ouf8baLIaJqJSEG+gm8/7qyVMwwit3eL/9oqNDiiPkIMHLkSIVl/u/Xu03+iGnylcDZz7NT7GrNFBrMVR3WwF4zdL631sRxWA0N9aFQEtMGKYByIpZg/IpSN9/HgjzxWISdazax6agdemwlqUNO90CAEFz5Spp4j5BJCofGNhjuvnBK2ssZWjQuQfWYyOEKESQ0IurrdvdPBphlDh43jzhK+1vV9IFWxsJz7KbCqp40A+JTHbGWRfUyMY6oKKmYQtDfkpqBINzSjmf6URcAI1+DPdR9BDa7elY3MvsITbULs15+tLJzdpMUmSuKSY7uTcPpFWjRwhn/t2nRN82FmU79+0NGHvAgMBAAGjgf4wgfswHQYDVR0OBBYEFEQXoRcVCj+ZMmxGMxGnAbL7tSxiMBIGA1UdEwEB/wQIMAYBAf8CAQEwHwYDVR0jBBgwFoAUKxVrrouYAyWCefRhh5hmnrxK3ygwVAYDVR0gBE0wSzBJBgRVHSAAMEEwPwYIKwYBBQUHAgEWM2h0dHA6Ly9wa2kuZWNyY3YuY3YvcHViL3BvbC9lY19yYWl6X2RwY18wMDFfcHQuaHRtbDA/BgNVHR8EODA2MDSgMqAwhi5odHRwOi8vcGtpLmVjcmN2LmN2L3B1Yi9jcmwvZWNfcmFpel9jcmwwMDEuY3JsMA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAgEASWIbGx8i3poPZ6SbHoUdpF6rkucKGxUS+Vs1+F0IqLkRnGbiFisLTBC3siHDyxI58SQpRsOA9A4fLeSBOdTPucxq7IOJUj/BBuyR1eTvcDe8BlUTdFieHI/pWnh1edBHmtHghPTx0yZy+oN4NoYXEcHcayoWiLIy8bFwKJRWT2nULSVyRoSdjuU1kjH4K42YnflgzOXHopozkPMJ5YEn1rDDyRO+wSxcb8IvHvNL6neiWky01xHCoEQu72+gKNDm9cJU96JwFwrvGlBjuWMcaQbh6OGXP4NDpOuyW1aphw+AJ2Jt8HqUvAhg3zlhmkBU53zVnNTAJ34VYTdlz1Pj7t6i3QqpdKx/pp3MP7g4XfRs+p3Kb/rsJm5JPpmKtkwfHrxIRSoHDAk3VOoz4uXxb9SUOO3UshTPeIkYu7vIKx3he4dHRI4Z5S88hGElEwJi1+fg8mDiH/qXeKuEDiedufml3VMl6AtsXtAzBd7DKoB6QhKhq3NpXYVJcEXDpwrL2IzzDPBjWcgu2sY6KfRZoVWgtMGXyShE/8dhFTpdgqISxuRoS29fbZal41N4HEQxtbvwwq5SU9TPpCEIZGKBYnE+deq9yzk03xbApBG0+h6Rew2u+3TBREFHgNtuPUs3Nul3KovCJfz5FqeDi5Z0JWj7IwJPXCnaYrFK/5ttSH8="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zZbUaZXwiBhosf4YpopKYUGKVaZYqqGDhQt1Pa7BPvDz4jkoRxpUxSHiFgBnYXhnBb3toK6k9q5K882LC9QChGPg"
+  }
+}

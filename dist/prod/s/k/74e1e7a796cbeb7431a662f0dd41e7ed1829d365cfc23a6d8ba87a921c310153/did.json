@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74e1e7a796cbeb7431a662f0dd41e7ed1829d365cfc23a6d8ba87a921c310153",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74e1e7a796cbeb7431a662f0dd41e7ed1829d365cfc23a6d8ba87a921c310153#74e1e7a796cbeb7431a662f0dd41e7ed1829d365cfc23a6d8ba87a921c310153",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74e1e7a796cbeb7431a662f0dd41e7ed1829d365cfc23a6d8ba87a921c310153",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "DhkNQk3l8krXT_2mJtjMOsMjsaC2sjhY_gvlSBFY1KM",
+        "y": "vZVNrrSQFf94BjAtIC0SGgm3pTF2H2WV-2-Mjdve44A",
+        "crv": "P-256",
+        "x5c": [
+          "MIICODCCAd2gAwIBAgIBATAKBggqhkjOPQQDAjBsMQswCQYDVQQGEwJCRzEbMBkGA1UECgwSTWluaXN0cnkgb2YgSGVhbHRoMSIwIAYDVQQLDBlIZWFsdGggSW5mb3JtYXRpb24gU3lzdGVtMRwwGgYDVQQDDBNCdWxnYXJpYSBER0MgQ1NDQSAxMB4XDTIxMDUyODEyMDM1NVoXDTI2MDUyODEyMDM1NVowbDELMAkGA1UEBhMCQkcxGzAZBgNVBAoMEk1pbmlzdHJ5IG9mIEhlYWx0aDEiMCAGA1UECwwZSGVhbHRoIEluZm9ybWF0aW9uIFN5c3RlbTEcMBoGA1UEAwwTQnVsZ2FyaWEgREdDIENTQ0EgMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABA4ZDUJN5fJK10/9pibYzDrDI7GgtrI4WP4L5UgRWNSjvZVNrrSQFf94BjAtIC0SGgm3pTF2H2WV+2+Mjdve44CjcDBuMA8GA1UdEwEB/wQFMAMBAf8wLAYDVR0fBCUwIzAhoB+gHYYbaHR0cDovL2NybC5oaXMuYmcvY3NjYTEuY3JsMB0GA1UdDgQWBBRXjBz5ZnvieLb8IvK97uGQpj+xVjAOBgNVHQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwIDSQAwRgIhAKD+DUC6l0lUs8JFrc85sdVDu568QjFnvZRapBVacTB/AiEA8joGR9E+NPLfJc3nNphFA22aR8GEwV2jfAL+uqE6i4U="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4rv1jiwXRU3JNt4CRYTV2UFGpniPBRpenw24cP7NhTwgmRRXf5JEkvC5J2uUsK8eaLwv64ALvUxKsvXFZu1QGcL3"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:7bb3340ceb14f61c67bc887e7be4f8f656662816680eb5b102b7a6e8b0a10c4c",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:7bb3340ceb14f61c67bc887e7be4f8f656662816680eb5b102b7a6e8b0a10c4c#7bb3340ceb14f61c67bc887e7be4f8f656662816680eb5b102b7a6e8b0a10c4c",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:7bb3340ceb14f61c67bc887e7be4f8f656662816680eb5b102b7a6e8b0a10c4c",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "oyEy30mI0pjBN42DYys-73TTEuBsMLaIrozMbnCt9Ig",
+        "y": "7bPlbDqgWK-9mmOy4oYqqthfKGjHGqlWXUA71j64qW4",
+        "crv": "P-256",
+        "x5c": [
+          "MIIB8DCCAZagAwIBAgIIXvnc18538G4wCgYIKoZIzj0EAwQwSjEeMBwGA1UEAwwVUG9sYW5kIERHQyBSb290Q1NDQSAxMRswGQYDVQQKDBJNaW5pc3RyeSBvZiBIZWFsdGgxCzAJBgNVBAYTAlBMMB4XDTIxMDUyNjEwMjUzM1oXDTI1MDUyNTEwMjUzM1owSjEeMBwGA1UEAwwVUG9sYW5kIERHQyBSb290Q1NDQSAxMRswGQYDVQQKDBJNaW5pc3RyeSBvZiBIZWFsdGgxCzAJBgNVBAYTAlBMMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoyEy30mI0pjBN42DYys+73TTEuBsMLaIrozMbnCt9Ijts+VsOqBYr72aY7Lihiqq2F8oaMcaqVZdQDvWPripbqNmMGQwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBSReaLaaIESwKN0GqS63esPmeyLATAdBgNVHQ4EFgQUkXmi2miBEsCjdBqkut3rD5nsiwEwDgYDVR0PAQH/BAQDAgGGMAoGCCqGSM49BAMEA0gAMEUCIQC8M4NJfHrziTRBDjwP22rOUolELCqFEkUVW4hXYgiL8gIgHU8gVlaZcnZ/DGBy63CSAWVSiVsEnbCwfJXTXAl6xl4="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:16Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zjk4gHoFB4rDtKnWFjLEKRwg3rH9MvYMhByU1pT4c39gceNHrKFUiUaqWSvH6TF8JCgPKoj5fyyVDN7jYAWoFTVQ"
+  }
+}

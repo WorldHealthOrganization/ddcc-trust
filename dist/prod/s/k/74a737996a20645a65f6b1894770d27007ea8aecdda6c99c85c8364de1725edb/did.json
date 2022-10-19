@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74a737996a20645a65f6b1894770d27007ea8aecdda6c99c85c8364de1725edb",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74a737996a20645a65f6b1894770d27007ea8aecdda6c99c85c8364de1725edb#74a737996a20645a65f6b1894770d27007ea8aecdda6c99c85c8364de1725edb",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:74a737996a20645a65f6b1894770d27007ea8aecdda6c99c85c8364de1725edb",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "L4flHf_1hOLdto6Q6XDTtNgAxhrGqD6dircDp3FNfLc",
+        "y": "I4QPcArNFMMdXBaZlov3EpE73jNMBhEqdgfN4o9V3_4",
+        "crv": "P-256",
+        "x5c": [
+          "MIICTzCCAfSgAwIBAgIJAOBKuk0YTeWGMAoGCCqGSM49BAMCMIGIMQswCQYDVQQGEwJLUjEOMAwGA1UECAwFU2VvdWwxEjAQBgNVBAcMCVNlb2Noby1ndTEeMBwGA1UECgwVQmxvY2tjaGFpbiBMYWJzLCBJbmMuMRwwGgYDVQQLDBNQcm9kdWN0IGRldmVsb3BtZW50MRcwFQYDVQQDDA5DU0NBX0RHQ19LUl8wMTAeFw0yMjA1MjYwNDQ2MTBaFw0yNjA1MjYwNDQ2MTBaMIGIMQswCQYDVQQGEwJLUjEOMAwGA1UECAwFU2VvdWwxEjAQBgNVBAcMCVNlb2Noby1ndTEeMBwGA1UECgwVQmxvY2tjaGFpbiBMYWJzLCBJbmMuMRwwGgYDVQQLDBNQcm9kdWN0IGRldmVsb3BtZW50MRcwFQYDVQQDDA5DU0NBX0RHQ19LUl8wMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC+H5R3/9YTi3baOkOlw07TYAMYaxqg+nYq3A6dxTXy3I4QPcArNFMMdXBaZlov3EpE73jNMBhEqdgfN4o9V3/6jRTBDMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBTKMJgThF3PSGggn3teOjOC3g968jAKBggqhkjOPQQDAgNJADBGAiEA61N1rolIcpOdIH93/UEU/myvCTsjc5zSp5iebzJTqNYCIQDa5pFrZ+YyPb7COkMIMu7VX3x8kM9JvDO54cbdGp0YuQ=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:16Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z631yojDCTgTX2dSbQvKRdwgt8rQ7SsoHSvFpjrhaYhAiDcnjttb2Yh338dUvJ5H8k1M4c34yxPN9ZuaocrtdLeE8"
+  }
+}

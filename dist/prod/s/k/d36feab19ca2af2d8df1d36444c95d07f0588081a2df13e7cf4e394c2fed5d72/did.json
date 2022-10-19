@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d36feab19ca2af2d8df1d36444c95d07f0588081a2df13e7cf4e394c2fed5d72",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d36feab19ca2af2d8df1d36444c95d07f0588081a2df13e7cf4e394c2fed5d72#d36feab19ca2af2d8df1d36444c95d07f0588081a2df13e7cf4e394c2fed5d72",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d36feab19ca2af2d8df1d36444c95d07f0588081a2df13e7cf4e394c2fed5d72",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "D7I9DYHnOqEDZJV8XKIdAs78gHoNGm1UjuM9WR6an-Q",
+        "y": "lIx9Cw1ihVLNu9oSu1-odaEgdnbM_76fkSHl-9jphNE",
+        "crv": "P-256",
+        "x5c": [
+          "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"
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:16Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zpreXSLGFoJZdTv46MXg2A3oio3FEmh2CgR6J48fegvbGWhzVPeWs2d1HJvz4pmoLxbZu5LtFepkXWwMXwn5f6xA"
+  }
+}

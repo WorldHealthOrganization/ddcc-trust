@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nova-scotia",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nova-scotia#UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nova-scotia",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "kIaIeOhhxpiN13sDs6RKVzCpvxxObI9adKF5YEmKngM",
+        "y": "AZPQ7CHd3UHp0i4a4ua1FhIq8SJ__BuHgDESuK3A_zQ"
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2ahiYR1EKKBei4jvMUJV8VDxF8vEyNKqzdBHCJUQSAvWV5cCQwXUZPYqsK5sjEBBhyu8oYyKccZ333A7frrAsQj9"
+  }
+}

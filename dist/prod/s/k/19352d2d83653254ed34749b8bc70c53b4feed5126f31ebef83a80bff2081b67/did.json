@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:19352d2d83653254ed34749b8bc70c53b4feed5126f31ebef83a80bff2081b67",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:19352d2d83653254ed34749b8bc70c53b4feed5126f31ebef83a80bff2081b67#19352d2d83653254ed34749b8bc70c53b4feed5126f31ebef83a80bff2081b67",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:19352d2d83653254ed34749b8bc70c53b4feed5126f31ebef83a80bff2081b67",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "SViB6PSZmtUqE9GoaJgLhIGYr_9S1OIlptbWC9cVg-o",
+        "y": "fMXAsMwcLPaL8_F5sZe4BhnyhxwsI055Q0vwiyU7mwg",
+        "crv": "P-256",
+        "x5c": [
+          "MIIB6TCCAY6gAwIBAgIJANNI8yjejogyMAoGCCqGSM49BAMCMFYxCzAJBgNVBAYTAkFFMSgwJgYDVQQKDB9NaW5pc3RyeSBvZiBIZWFsdGggJiBQcmV2ZW50aW9uMR0wGwYDVQQDDBROYXRpb25hbCBDU0NBIG9mIFVBRTAeFw0yMTEwMDYxNjI1MDlaFw0yNTEwMDUxNjI1MDlaMFYxCzAJBgNVBAYTAkFFMSgwJgYDVQQKDB9NaW5pc3RyeSBvZiBIZWFsdGggJiBQcmV2ZW50aW9uMR0wGwYDVQQDDBROYXRpb25hbCBDU0NBIG9mIFVBRTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABElYgej0mZrVKhPRqGiYC4SBmK//UtTiJabW1gvXFYPqfMXAsMwcLPaL8/F5sZe4BhnyhxwsI055Q0vwiyU7mwijRTBDMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBSur2YEkUQe5q5Mni7vSPXo8aVeJjAKBggqhkjOPQQDAgNJADBGAiEA8qeep6ELy7vOKOqFp3fSlqsDpm1G+SNR3DSbjheaHMMCIQCm+v9U+deWA+YAbNZ4JzjD8GRwwsxyjT+4XGsUZ1cYKQ=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3Jdb8woA7yNREq8QzmqceDkFw9BqQ4k55BD2j4VqwUxeu6JpppVa1EVLq7pPBj5jUaT8rqwwice2ykE7JtZ3W3yn"
+  }
+}

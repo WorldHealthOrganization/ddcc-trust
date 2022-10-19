@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:c997f0145168f4fb893e8ed8b93b8ea9e0d5ce7f1ec9a894bf729e93ddbd4a9e",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:c997f0145168f4fb893e8ed8b93b8ea9e0d5ce7f1ec9a894bf729e93ddbd4a9e#c997f0145168f4fb893e8ed8b93b8ea9e0d5ce7f1ec9a894bf729e93ddbd4a9e",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:c997f0145168f4fb893e8ed8b93b8ea9e0d5ce7f1ec9a894bf729e93ddbd4a9e",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "UamL9usFZz2ciOAlnwPOAMDAbjJBQdH4_nrBVqZgEbg",
+        "y": "pcIdMX3JyVsBCHcUZ-RK06_r4fAoMiEOsBdiI8yJ4T8",
+        "crv": "P-256",
+        "x5c": [
+          "MIICBDCCAaqgAwIBAgIKAXnM5aVJSfMqXDAKBggqhkjOPQQDAjBEMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQwwCgYDVQQFEwMwMDExFjAUBgNVBAMMDUFUIERHQyBDU0NBIDEwHhcNMjEwNjAxMjIwMDAwWhcNMjUwNjAxMjE1OTU5WjBEMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQwwCgYDVQQFEwMwMDExFjAUBgNVBAMMDUFUIERHQyBDU0NBIDEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARRqYv26wVnPZyI4CWfA84AwMBuMkFB0fj+esFWpmARuKXCHTF9yclbAQh3FGfkStOv6+HwKDIhDrAXYiPMieE/o4GDMIGAMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdDgQWBBQfIqwcZRYptMGYs2Nvv90Jnbt7ezAfBgNVHSMEGDAWgBQfIqwcZRYptMGYs2Nvv90Jnbt7ezAaBgNVHRAEEzARgQ8yMDIyMDcwMTIyMDAwMFowCgYIKoZIzj0EAwIDSAAwRQIhAIuowToEUwQaNIfxwqmYV1cGNb3n4VOZjzM/XbvNhLr3AiALGlMmkoAF+Y58v3jQ9bvdR3+5UJ6muqWBcvvnlynXYg=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5zjX1nrXgU2e6wjnoeoMHuNXGcWuF2uYaa6VKaHT3DEyMVsaYszFtRWrXy24vKMnYVFAi8tD4BkjZbtT14d9NAfZ"
+  }
+}

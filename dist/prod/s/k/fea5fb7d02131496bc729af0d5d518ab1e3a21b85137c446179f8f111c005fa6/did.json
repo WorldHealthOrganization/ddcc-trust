@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:fea5fb7d02131496bc729af0d5d518ab1e3a21b85137c446179f8f111c005fa6",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:fea5fb7d02131496bc729af0d5d518ab1e3a21b85137c446179f8f111c005fa6#fea5fb7d02131496bc729af0d5d518ab1e3a21b85137c446179f8f111c005fa6",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:fea5fb7d02131496bc729af0d5d518ab1e3a21b85137c446179f8f111c005fa6",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "pnr0I4qWtUGv9TmuaoraihHYaKuiPXRfQ5TWPN4eqCM",
+        "y": "ybqyoI4Z9c66MJFvOyGg716UB5VOqVvc-mEvIh6dfB0",
+        "crv": "P-256",
+        "x5c": [
+          "MIICPTCCAeOgAwIBAgIUWHJ7FHbanwRD//0+9xWgOewJe4MwCgYIKoZIzj0EAwIwezELMAkGA1UEBhMCTUUxEjAQBgNVBAgMCVBvZGdvcmljYTESMBAGA1UEBwwJUG9kZ29yaWNhMRkwFwYDVQQKDBBNaW5pc3RyeU9mSGVhbHRoMQswCQYDVQQLDAJJVDEcMBoGA1UEAwwTQ1NDQV9ER0NfUFJPRF9NRV8wMTAeFw0yMTEyMTcxMzQ3MTZaFw0yNTEyMTcxMzQ3MTZaMHsxCzAJBgNVBAYTAk1FMRIwEAYDVQQIDAlQb2Rnb3JpY2ExEjAQBgNVBAcMCVBvZGdvcmljYTEZMBcGA1UECgwQTWluaXN0cnlPZkhlYWx0aDELMAkGA1UECwwCSVQxHDAaBgNVBAMME0NTQ0FfREdDX1BST0RfTUVfMDEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASmevQjipa1Qa/1Oa5qitqKEdhoq6I9dF9DlNY83h6oI8m6sqCOGfXOujCRbzshoO9elAeVTqlb3PphLyIenXwdo0UwQzASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUCP8pC1fWCYccE1QpfFRUQXhyaNkwCgYIKoZIzj0EAwIDSAAwRQIhAMHCh4iwck3fhbu3eOBwVDhzQmVOGUm6apWe6Ubvo2lGAiAVy+2BuKc9FeTpJFASyQgJwOuG3DVH06jQWiD7siiIig=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:16Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zikq3ZczmCcLRBP3K3PUMME6f8SEjB8DjhW3EWoUfPqc4nt3USUfps5tr2UAeBUBgTXZub51wfeVPJS1tHqnqxeW"
+  }
+}

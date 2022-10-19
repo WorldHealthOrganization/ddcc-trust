@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:0bc20052c9c75a4df9520dda8737d615c7a2f463c758ae7f5b72941a30e63dfa",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:0bc20052c9c75a4df9520dda8737d615c7a2f463c758ae7f5b72941a30e63dfa#0bc20052c9c75a4df9520dda8737d615c7a2f463c758ae7f5b72941a30e63dfa",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:0bc20052c9c75a4df9520dda8737d615c7a2f463c758ae7f5b72941a30e63dfa",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "GyAQGSteDLtl5ArLjCaG0LqDuwix5_KJYM0by-9bHlM",
+        "y": "Z4sv6PPx5FtlQbzBW-Oa2_2Rqm56bRAqbO65k7K0Qr8",
+        "crv": "P-256",
+        "x5c": [
+          "MIICBDCCAaqgAwIBAgIKAYBQc9BUDGmGozAKBggqhkjOPQQDAjBEMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQwwCgYDVQQFEwMwMDIxFjAUBgNVBAMMDUFUIERHQyBDU0NBIDIwHhcNMjIwNDIyMDAwMDAwWhcNMjYwNDIxMjM1OTU5WjBEMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQwwCgYDVQQFEwMwMDIxFjAUBgNVBAMMDUFUIERHQyBDU0NBIDIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQbIBAZK14Mu2XkCsuMJobQuoO7CLHn8olgzRvL71seU2eLL+jz8eRbZUG8wVvjmtv9kapuem0QKmzuuZOytEK/o4GDMIGAMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdDgQWBBQvWRbxO3tS9HatiMTvp8sD9RwywTAfBgNVHSMEGDAWgBQvWRbxO3tS9HatiMTvp8sD9RwywTAaBgNVHRAEEzARgQ8yMDIzMDUyMjAwMDAwMFowCgYIKoZIzj0EAwIDSAAwRQIgSLrJeZ1P/9SAzQNb5oS2H74CZO40p/6jZK45x1t2XC4CIQCR9uxCFqPfp1LIyQDMUpnvyYkPdr3N781mYHeTU0MMQg=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3eeFdWRQf1zdWW6kstdMrpvLd6XPJmZwxQiutJgtgbxpnKEkRVWtNKAKGP78YNKKAb4xwdm7f6k7HpqLX3Zh58VG"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d3bba5629ab509fcf2d818d5d78a40b5b674d74326b03f46e86f170715f6764a",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d3bba5629ab509fcf2d818d5d78a40b5b674d74326b03f46e86f170715f6764a#d3bba5629ab509fcf2d818d5d78a40b5b674d74326b03f46e86f170715f6764a",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:d3bba5629ab509fcf2d818d5d78a40b5b674d74326b03f46e86f170715f6764a",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "kf7-NNRhNdBZk2X5OVDWezBfCgRyqr2AXIbFZ9PzzTw",
+        "y": "L09_Pal1fALzA1KTjczYw8FrDrjtFKnFfpj74AaLtO4",
+        "crv": "P-256",
+        "x5c": [
+          "MIICGTCCAb+gAwIBAgIUa7qTDmEPj5bWKBtU1aEIX8V9NNwwCgYIKoZIzj0EAwIwaTELMAkGA1UEBhMCSFUxETAPBgNVBAgMCEJ1ZGFwZXN0MREwDwYDVQQHDAhCdWRhcGVzdDEOMAwGA1UECgwFRUVTWlQxJDAiBgNVBAMMG0RHQ19DU0NBX0hVX1BSRF8yMDIxMDYyMV8wMTAeFw0yMTA2MjExMTQ2MjNaFw0yNTA2MjExMTQ2MjNaMGkxCzAJBgNVBAYTAkhVMREwDwYDVQQIDAhCdWRhcGVzdDERMA8GA1UEBwwIQnVkYXBlc3QxDjAMBgNVBAoMBUVFU1pUMSQwIgYDVQQDDBtER0NfQ1NDQV9IVV9QUkRfMjAyMTA2MjFfMDEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASR/v401GE10FmTZfk5UNZ7MF8KBHKqvYBchsVn0/PNPC9Pfz2pdXwC8wNSk43M2MPBaw647RSpxX6Y++AGi7Tuo0UwQzASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQU8dxSNumvZQ8ZUpATApcswYPiwNMwCgYIKoZIzj0EAwIDSAAwRQIhANzLz9/HTsH44gnDsXi8ABUkwDNlMCMmUonvGeTXwZpGAiBJR7bpJisTOfyIjHdPMfp8fFTHlKvAziyDybY5CBj7gQ=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zferJFPxosheXhMchVhqF3NJAQrnPwtNy4cwifog1rcjN6qXGt8jWEvvNCwBzECvJqJNz74xyNU4Y8733DPVLwE4"
+  }
+}

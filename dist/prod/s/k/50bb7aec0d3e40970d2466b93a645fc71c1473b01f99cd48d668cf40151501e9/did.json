@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:50bb7aec0d3e40970d2466b93a645fc71c1473b01f99cd48d668cf40151501e9",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:50bb7aec0d3e40970d2466b93a645fc71c1473b01f99cd48d668cf40151501e9#50bb7aec0d3e40970d2466b93a645fc71c1473b01f99cd48d668cf40151501e9",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:50bb7aec0d3e40970d2466b93a645fc71c1473b01f99cd48d668cf40151501e9",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "XE4N2E-3HcvjTxL8NR7yms_60hSfw6cBDyAUtriKbyw",
+        "y": "815KoCoAWPll0ZEkt87I5H_TJiydNce8LDKqSOSD8Dg",
+        "crv": "P-256",
+        "x5c": [
+          "MIICLzCCAdWgAwIBAgIUYWWauYm6KSvTGdrOwnMloHupzDAwCgYIKoZIzj0EAwIwZTETMBEGA1UEAwwKQ1NDQSBTYXVkZTEMMAoGA1UEBRMDMDAxMTMwMQYDVQQKDCpSZXB1YmxpY2EgUG9ydHVndWVzYSAtIFBvcnR1Z3Vlc2UgUmVwdWJsaWMxCzAJBgNVBAYTAlBUMB4XDTIxMDUyMTE1NTkzMFoXDTI1MDUyMDE1NTkyOVowZTETMBEGA1UEAwwKQ1NDQSBTYXVkZTEMMAoGA1UEBRMDMDAxMTMwMQYDVQQKDCpSZXB1YmxpY2EgUG9ydHVndWVzYSAtIFBvcnR1Z3Vlc2UgUmVwdWJsaWMxCzAJBgNVBAYTAlBUMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXE4N2E+3HcvjTxL8NR7yms/60hSfw6cBDyAUtriKbyzzXkqgKgBY+WXRkSS3zsjkf9MmLJ01x7wsMqpI5IPwOKNjMGEwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBR+Mrxvly75X+vQFUdnn4mMyiFoDjAdBgNVHQ4EFgQUfjK8b5cu+V/r0BVHZ5+JjMohaA4wDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0gAMEUCIQCj8Ni2D0kCb9FltRyLg7KKprskUTFNgUGAV0rlhhyM5AIgXXePtXAEIs6J/X63pZdTcJwuAaMQPqW5kp0NpZDU8jA="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-10-19T20:15:16Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z3pJcMz5x9jVvipa58iW1GwgXdSAZCUw6WiaNbaEQFaG4g3Z48BFgS9nCGHQwHnMXhSGxwzHWazdEhqfPdxnTReMB"
+  }
+}

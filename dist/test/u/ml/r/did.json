@@ -5,6 +5,7 @@
   ],
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:ml:r",
   "verificationMethod": [
+    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:Gwmv3xzreKs=#Gwmv3xzreKs%3D",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:sg-cert#sg-cert"
   ]
 }

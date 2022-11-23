@@ -6,13 +6,14 @@
   ],
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:ml:r",
   "verificationMethod": [
+    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:Gwmv3xzreKs=#Gwmv3xzreKs%3D",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:sg-cert#sg-cert"
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-10-19T20:15:15Z",
+    "created": "2022-11-23T21:59:15Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z3GyitLAfu9gEo4T3dRj3AHF1a9aVmn6r1tmCq4SBnRaWhkVkrMPWgmueGjwijGg6xRckbXCmay6PLZtsKpXB89jj"
+    "proofValue": "zPrD4TSNLPeyJVtJeqzN5VAHiTkTBuSxTZXAxYhABNmtQnZNPppRiFULKYRYpsLD2WwdrMHCsfoWjdZXZhB1mEr2"
   }
 }

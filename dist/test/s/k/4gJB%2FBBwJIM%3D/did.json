@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:4gJB%2FBBwJIM%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:4gJB%2FBBwJIM%3D#4gJB%252FBBwJIM%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:4gJB%2FBBwJIM%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "Bke0hb595dE7aP-AMRkInzR-TS-LfWGP-DBy93BHSf8",
+        "y": "9mdurqlQ1eqBbgvtwjbkNlMS5bsnzsf8XGC7tq3posA",
+        "crv": "P-256",
+        "x5c": [
+          "MIICKTCCAa+gAwIBAgIUFHqvGxiOp8qhvOFJXuyGvezZ0lYwCgYIKoZIzj0EAwIwWjELMAkGA1UEBhMCVE4xNzA1BgNVBAoMLkFHRU5DRSBOQVRJT05BTEUgREUgQ0VSVElGSUNBVElPTiBFTEVDVFJPTklRVUUxEjAQBgNVBAMMCVROMDEgVEVTVDAeFw0yMTExMTIwODE0MjlaFw0yMzExMTIwODE0MjhaME0xHjAcBgNVBAMMFVRVTklTSUEgTkIgVVBMT0FEIEFDQzEeMBwGA1UECgwVTUlOSVNURVJFIERFIExBIFNBTlRFMQswCQYDVQQGEwJUTjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAZHtIW+feXRO2j/gDEZCJ80fk0vi31hj/gwcvdwR0n/9mdurqlQ1eqBbgvtwjbkNlMS5bsnzsf8XGC7tq3posCjYDBeMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUQUI6DdlG6rOqAIfpGrk61Atiq40wHQYDVR0OBBYEFEWCOnANoz5qGKU98r+Nokmm9qFEMA4GA1UdDwEB/wQEAwIHgDAKBggqhkjOPQQDAgNoADBlAjA7JwJ1FSbEt3DVlWSxPuAxCaSGzTPmBhi1X3qIX7AVP6y6VbwJwUCrJehPyfOizukCMQDHo/aYTB+wfI4vZkaC3bLKW8MxOvvSBQBKUIziHH//zBi5+CmV6URsmjDT5jckk8A="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:18Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z5gotJFbGLy4Rgpnu8FheYUSXJXZ7kwWXjQbv6Gn9tjTuJoU82SE5dEcJNW5QF8hnpSh8ahLyjHgRCrUFxVHX4tzM"
+  }
+}

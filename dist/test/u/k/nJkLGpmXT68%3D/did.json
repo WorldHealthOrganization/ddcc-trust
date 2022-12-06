@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:nJkLGpmXT68%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:nJkLGpmXT68%3D#nJkLGpmXT68%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:nJkLGpmXT68%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "FZuKG_jLF7nRtakheH4-aI7oaKgNKD1yRjnHh6m9agU",
+        "y": "8VFpJiIUFc1AnFDC7TIeqsCtnQ07gBJRqotcb3rkGcs",
+        "crv": "P-256",
+        "x5c": [
+          "MIIDpTCCAY2gAwIBAgIIZcKV9FVnzhIwDQYJKoZIhvcNAQELBQAwZjELMAkGA1UEBhMCRlIxHTAbBgNVBAoTFElNUFJJTUVSSUUgTkFUSU9OQUxFMR4wHAYDVQQLExVGT1IgVEVTVCBQVVJQT1NFIE9OTFkxGDAWBgNVBAMTD0lOR1JPVVBFIERTYyBDQTAeFw0yMTExMDMxNTEyMDBaFw0yMjExMDMxNTEyMDBaMEkxCzAJBgNVBAYTAkZSMR0wGwYDVQQKExRJTVBSSU1FUklFIE5BVElPTkFMRTEbMBkGA1UEAwwSSU5HUk9VUEVfRENDT19URVNUMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFZuKG/jLF7nRtakheH4+aI7oaKgNKD1yRjnHh6m9agXxUWkmIhQVzUCcUMLtMh6qwK2dDTuAElGqi1xveuQZy6M/MD0wDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU761/zbT7GHKV7ujcjxoBal92o5wwDgYDVR0PAQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4ICAQBKhKczOssVqxrSn4yZhVR2VOt5gc3lJqOWrwiEvFQJXCGxQlfQrYgQcxl+DEQ/dMqAyfn9N6qfu7ycAqjmtNCqjk6rX4o+q8hRw74KlwaqqZy/olOLzXLbW1SPcCilDtt0KyVR13Pf+7tt78yf6YKEOZ/PPLwBYX/knrlytf/aaixHE/bQur6qLBhmQBYGKfi1WDF5xCzniS57hfv8mgdxsg8LKa/7SOxwPTuZ6YzWel0cPPs/aEz0WYTlLuHPE3z/watt4tASIXzcI5LGaqm+0wcBYW349cWE3e8Gg9HWQTV8X5MWcWTRdocwpvF5ZJ3wn5DmydsmBB+953x7Kf6A5Mp1RyHzYfboj9Y67LJHonbEVaJNNHPh4auJ63hpVkrVl5lbb0lYyvpIGyPHxddWi8gn/vDAo5gii/gtVX9p4pkkeYQdWNCDbg/xjvZzhmAZPwNxnxvTWlQgRf/nkeR1iKjuflY4bxpZY5T0Fo75MCbBqZ3huNxbilXK0vY71WjeOO/IfAaAsLyK6YUEBXW9znITG93ZpeQyDLh3EE7EDneFUWbqLOZfBLfIFJNIzXvWittfDw0AvGBai26Qb93+DtQW1Ng/xv2ox84qlhpn3BYL3vw5lOMEQ9ix1aF/KDIOb4F1i3xWbmZ2gv5kbn7YkAVKbG8e4VswHxqHbdIIxA=="
+        ]
+      }
+    }
+  ]
+}

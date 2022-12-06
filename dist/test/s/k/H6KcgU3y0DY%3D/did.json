@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:H6KcgU3y0DY%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:H6KcgU3y0DY%3D#H6KcgU3y0DY%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:H6KcgU3y0DY%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "46dyjRPrZ0XTNa6BIICXyAD3kJvFRXG3QS32iLTQkyU",
+        "y": "OUwGxjV6p0zOFcOTPFJFelgLQcRIeMSx4b4QXyi0QcM",
+        "crv": "P-256",
+        "x5c": [
+          "MIICozCCAkqgAwIBAgIJAJQcWeYoxjoUMAoGCCqGSM49BAMCMIGMMQswCQYDVQQGEwJDWTEQMA4GA1UECAwHTmljb3NpYTEQMA4GA1UEBwwHTmljb3NpYTEbMBkGA1UECgwSTWluaXN0cnkgb2YgSGVhbHRoMSMwIQYDVQQLDBpOYXRpb25hbCBlSGVhbHRoIEF1dGhvcml0eTEXMBUGA1UEAwwOQ1NDQV9ER0NfQ1lfMDEwHhcNMjEwNjAyMTAzMjUxWhcNMjMwNTIzMTAzMjUxWjCBiDELMAkGA1UEBhMCQ1kxEDAOBgNVBAgMB05pY29zaWExEDAOBgNVBAcMB05pY29zaWExIzAhBgNVBAoMGk5hdGlvbmFsIGVIZWFsdGggQXV0aG9yaXR5MRYwFAYDVQQLDA1JVCBEZXBhcnRtZW50MRgwFgYDVQQDDA9EU0NfRVVEQ0NfQ1lfMDMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATjp3KNE+tnRdM1roEggJfIAPeQm8VFcbdBLfaItNCTJTlMBsY1eqdMzhXDkzxSRXpYC0HESHjEseG+EF8otEHDo4GWMIGTMC8GA1UdHwQoMCYwJKAioCCGHmh0dHA6Ly9jcmwubmVoYS5nb3YuY3kvZHNjLmNybDAzBgNVHSUELDAqBgwrBgEEAQCON49lAQEGDCsGAQQBAI43j2UBAgYMKwYBBAEAjjePZQEDMCsGA1UdEAQkMCKADzIwMjEwNjA2MDAwMDAwWoEPMjAyMzA2MDYwMDAwMDBaMAoGCCqGSM49BAMCA0cAMEQCICdei2wUg1ze7RsTr+nvuhf9NgrPqQefbGYDcnHaCQZYAiBuHa0onvEeo7ViG6kYXW1r45AwIDaiHBjMNeOzmFeBTg=="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:20Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zM5qTbZcBvcrHyWhv9ip2ddoNovnmHMyhukbGHrxf96evUAoH6DaoWkBiAPkSvD4NjwMLNeAYnFoWiLqZYbN86bs"
+  }
+}

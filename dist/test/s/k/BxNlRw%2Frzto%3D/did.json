@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:BxNlRw%2Frzto%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:BxNlRw%2Frzto%3D#BxNlRw%252Frzto%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:BxNlRw%2Frzto%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "xVH5f3kHTINhStgWo_JAerYqfnvHdNYEbV23Ir-pcneDaukOvAjVJ4PG62d3LJj_",
+        "y": "S1Vrzin1yTlNVDk-MYuGAKShK40IQwddFWGF3zsPMLdIps052kDJ3tzDFy8O8wGa",
+        "crv": "P-384",
+        "x5c": [
+          "MIICbDCCAfKgAwIBAgIUHDTkrh7bcTaV7R9XFK+dqVE1sgUwCgYIKoZIzj0EAwIwZTELMAkGA1UEBhMCTloxIjAgBgNVBAoMGUdvdmVybm1lbnQgb2YgTmV3IFplYWxhbmQxGzAZBgNVBAsMEk1pbmlzdHJ5IG9mIEhlYWx0aDEVMBMGA1UEAwwMVmFjY2luZSBDU0NBMB4XDTIxMTEwMjAxMjE0MFoXDTM0MTIyNDAxMjEzOVowZTELMAkGA1UEBhMCTloxIjAgBgNVBAoMGUdvdmVybm1lbnQgb2YgTmV3IFplYWxhbmQxGzAZBgNVBAsMEk1pbmlzdHJ5IG9mIEhlYWx0aDEVMBMGA1UEAwwMVmFjY2luZSBDU0NBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExVH5f3kHTINhStgWo/JAerYqfnvHdNYEbV23Ir+pcneDaukOvAjVJ4PG62d3LJj/S1Vrzin1yTlNVDk+MYuGAKShK40IQwddFWGF3zsPMLdIps052kDJ3tzDFy8O8wGao2MwYTAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFAhJB76O9CsbvjC+2eZT5OOgTEOSMB0GA1UdDgQWBBQISQe+jvQrG74wvtnmU+TjoExDkjAOBgNVHQ8BAf8EBAMCAYYwCgYIKoZIzj0EAwIDaAAwZQIxAKClnQgoepos4cVC0ZyiiD8SiT3x/+JyOQLS3FYL1lJDSqh6EWhC5I4j91U1dPkItgIwONfCg6iW6EQqN8xIzdVdmX+zgTYpnlyGF+fkd0wdFc/jH6ufA7phdCFHMhanhxI7"
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:19Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2Ft7VYPehACEVFahTdkxw45UV31iuY49vdv5rLaWoyYB6Qfx9C9HHzd3aeP2FRpFDRhjzDfrvsri92WPCAzdJKKb"
+  }
+}

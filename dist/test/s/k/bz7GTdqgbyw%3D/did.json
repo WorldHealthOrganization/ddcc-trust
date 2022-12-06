@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:bz7GTdqgbyw%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:bz7GTdqgbyw%3D#bz7GTdqgbyw%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:bz7GTdqgbyw%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "pTC02MTp_20ObwXp24pPDHyfsPesFqWdy67CVpyXcsE",
+        "y": "6rEPG_nK90_x8nAgAY11BnNYOHPQ4eXlpIlpYcXIfxo",
+        "crv": "P-256",
+        "x5c": [
+          "MIICtDCCAlugAwIBAgIUHCgedHSE1k1AUYKJmh8+XoJqDQ0wCgYIKoZIzj0EAwIwgbYxCzAJBgNVBAYTAklEMRkwFwYDVQQIDBBES0kgSmFrYXJ0YSBSYXlhMRgwFgYDVQQHDA9KYWthcnRhIFNlbGF0YW4xMTAvBgNVBAoMKEtlbWVudGVyaWFuIEtlc2VoYXRhbiBSZXB1YmxpayBJbmRvbmVzaWExJjAkBgNVBAsMHURpZ2l0YWwgVHJhbnNmb3JtYXRpb24gT2ZmaWNlMRcwFQYDVQQDDA5DU0NBX0RHQ19JRF8wMjAeFw0yMjAyMTEwODA3MjhaFw0yNjAyMTEwODA3MjhaMIG2MQswCQYDVQQGEwJJRDEZMBcGA1UECAwQREtJIEpha2FydGEgUmF5YTEYMBYGA1UEBwwPSmFrYXJ0YSBTZWxhdGFuMTEwLwYDVQQKDChLZW1lbnRlcmlhbiBLZXNlaGF0YW4gUmVwdWJsaWsgSW5kb25lc2lhMSYwJAYDVQQLDB1EaWdpdGFsIFRyYW5zZm9ybWF0aW9uIE9mZmljZTEXMBUGA1UEAwwOQ1NDQV9ER0NfSURfMDIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASlMLTYxOn/bQ5vBenbik8MfJ+w96wWpZ3LrsJWnJdyweqxDxv5yvdP8fJwIAGNdQZzWDhz0OHl5aSJaWHFyH8ao0UwQzASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUbTzYcSIAvNEV2z4EUMVcg1nkwvswCgYIKoZIzj0EAwIDRwAwRAIgasBa6v6MClCCg1sEt99dQC+NVn3rlWaf0EIhytBbX4ICIFdisOufG8r0Vc1rIMJbY1NEsvhwpWaN+F4vKKGsFA21"
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:22Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2T4yqkTTrJ64wfyUEFpD22pL6uyT4ZYguetwb2mKH9wLxKoryCHjbzirp9EhwcHJtnBPZsN2dLK8CvsKJSu5dtD7"
+  }
+}

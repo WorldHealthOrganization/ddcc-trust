@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:r%2Fass9MnBUI%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:r%2Fass9MnBUI%3D#r%252Fass9MnBUI%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:r%2Fass9MnBUI%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "D33zkWgdfBoMG7ekHRsjFvXZL9AlhvfF80FIJtnCQE4",
+        "y": "QwQ_5njGSTBprThdOGCbjxoHoTUXcP8v20pQw8n7iSw",
+        "crv": "P-256",
+        "x5c": [
+          "MIIDwTCCAamgAwIBAgIIQtkrtnYVilQwDQYJKoZIhvcNAQELBQAwZjELMAkGA1UEBhMCRlIxHTAbBgNVBAoTFElNUFJJTUVSSUUgTkFUSU9OQUxFMR4wHAYDVQQLExVGT1IgVEVTVCBQVVJQT1NFIE9OTFkxGDAWBgNVBAMTD0lOR1JPVVBFIERTYyBDQTAeFw0yMjAxMjgxMDIyMDBaFw0yMzAxMjgxMDIyMDBaMGUxCzAJBgNVBAYTAkZSMR0wGwYDVQQKExRJTVBSSU1FUklFIE5BVElPTkFMRTEWMBQGA1UECxMNRk9SIFRFU1QgT05MWTEfMB0GA1UEAwwWSU5HUk9VUEVfRFNDX1RFU1RfMDAwMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABA9985FoHXwaDBu3pB0bIxb12S/QJYb3xfNBSCbZwkBOQwQ/5njGSTBprThdOGCbjxoHoTUXcP8v20pQw8n7iSyjPzA9MAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFN7eYMF5XFiR+c4QtF2IVY5YGkeuMA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAgEAGJnWRPRjh2M0CCPpiWxecz1pOR3wrTKcKOzK9CNzOrEtJkzJbR6bBfqOs0x1ebSOb9zmIi/KqoMsfLpHRDkrsUJOkrLL7h+XUhrBNl+s0hn8Hs5hTSbqudP/ShnroclF1B+hdMynnYLr0eJk9PcYOo338VdQ85sQTHNnhRnsyeMLfBy7g4QjSnpWLaSDMlfZOQU76VMqq+tAu3uJYEN24MD57FdO3h8hUxxpk3qBsAfaDewDrYInVnAZMuE646eSyNLoi5L8FI99queQ/nUK+aQ/uAxr0tHDccnNoPYTNNm2JfDlqKBjbU8FoV1gZKNEIYC1cOj9wGfeYoKUi/LZYCWRdbc+cwFYL9BLBMtSr8u6PxAJx0H4yJGLoeyF+9fokWhAlixrRuP85+EwE+uq8/0iZ8Vz0YzDM/Skl1HzWf3ykcr4oXpUvpeyvDWLAWNASJTmqdeHUDG1zmbm4n8XBH8fCvGeRQ8fQQ30sMp2zO0cUgr5qnokN4khqR8gMWGPgXNA3NTFUsKnOoSwndhAwW240e20ie40mjeNqxaAp3WZVxFmkl8DxzTKYYHfPWKA4y5EpZiMtsP+H5AV5xMCO54pTYq+bddSoYYZRGIHnZpV1XeDjqkn/xuBUXUdOb+sy9uEOy46ZbFCphudioAeHeNyVvW0zbBygZPtTOHagEs="
+        ]
+      }
+    }
+  ]
+}

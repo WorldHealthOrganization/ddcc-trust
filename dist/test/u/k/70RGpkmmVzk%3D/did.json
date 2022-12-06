@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:70RGpkmmVzk%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:70RGpkmmVzk%3D#70RGpkmmVzk%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:70RGpkmmVzk%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "R0tUjAuTJlC3L8oYQKR4RErraFo2udfjbSP2OQxhIwY",
+        "y": "FtM6GVhpn7vhG_qArF-7vlsl2OE0IYRdBtS7BKjfbPA",
+        "crv": "P-256",
+        "x5c": [
+          "MIICCDCCAa6gAwIBAgIKAYOtQPQ+XFO7azAKBggqhkjOPQQDAjBQMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQowCAYDVQQLDAFRMQwwCgYDVQQFEwMwMDIxFjAUBgNVBAMMDUFUIERHQyBDU0NBIDIwHhcNMjIxMDA2MTIyNDE4WhcNMjQxMDA2MTIyNDE4WjBSMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQowCAYDVQQLDAFRMQ8wDQYDVQQFEwYwMDIwMDUxFTATBgNVBAMMDEFUIERHQyBEU0MgNTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABEdLVIwLkyZQty/KGECkeERK62haNrnX420j9jkMYSMGFtM6GVhpn7vhG/qArF+7vlsl2OE0IYRdBtS7BKjfbPCjbjBsMA4GA1UdDwEB/wQEAwIHgDAdBgNVHQ4EFgQUukUl3nmNDsTM/Aj/vEt/xsrKlskwHwYDVR0jBBgwFoAUbEmRazvUgDSNgkittNaRGsg5bb0wGgYDVR0QBBMwEYEPMjAyMzA0MjAxMjI0MThaMAoGCCqGSM49BAMCA0gAMEUCIAHOXwwTj841NS/Gbn6D69TZYShSxi4by8GtgePLhsvMAiEAkiOoeuLOq+wiijokjuI0Hbqcoz3ltzhA+yBr0O/bG3E=",
+          "MIICHDCCAcKgAwIBAgIKAX9Awf6op2xiEDAKBggqhkjOPQQDAjBQMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQowCAYDVQQLDAFRMQwwCgYDVQQFEwMwMDIxFjAUBgNVBAMMDUFUIERHQyBDU0NBIDIwHhcNMjIwMjI4MDAwMDAwWhcNMjYwMjI3MjM1OTU5WjBQMQswCQYDVQQGEwJBVDEPMA0GA1UECgwGQk1TR1BLMQowCAYDVQQLDAFRMQwwCgYDVQQFEwMwMDIxFjAUBgNVBAMMDUFUIERHQyBDU0NBIDIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASdWaoPgXwDGn6RlVth63NmUBc9nDwb/joEjuRYemYyrJIe5cIPywbawBtWT0O5rpxeVE8saksDnMngWR1UyLvzo4GDMIGAMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdDgQWBBRsSZFrO9SANI2CSK201pEayDltvTAfBgNVHSMEGDAWgBRsSZFrO9SANI2CSK201pEayDltvTAaBgNVHRAEEzARgQ8yMDIzMDMyODAwMDAwMFowCgYIKoZIzj0EAwIDSAAwRQIgP7WtvMyImXLBf36mcVNat5sJVN3FHdOaE4XKhamHx1QCIQDS3gtVtooAsOXwMqdKzW9jYw+gQlzey3TKMn65+OhWmg=="
+        ]
+      }
+    }
+  ]
+}

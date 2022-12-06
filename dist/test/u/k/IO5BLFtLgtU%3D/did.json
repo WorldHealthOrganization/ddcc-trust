@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:IO5BLFtLgtU%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:IO5BLFtLgtU%3D#IO5BLFtLgtU%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:IO5BLFtLgtU%3D",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "n": "tIodeHotN1KaLuTPfxd1qrjS8rruKyh4cVy3Czw6XNSx1wfX8BW2s5dZDCWfFqAvkhdYSqlIROYgn4buapJgAOmlQk0o_feTa4sXcYAkcHjT1saHF8Eshtmm3IQTzzwq_BFsnCMyAOQT1WKG9opOU71zjKLkX6-kyrT-whv8HSp316o4F2IqaT1vkUX7AuGcA_xorufICSXY2trmrxhIH1VjNgCc3eVmGSxhhH2Ctzh9YwGxiL1QCTPTe1y8XnFfAm4Ngu1VC3L576tjziLjfZdzKvXkHQreKLNQUehB_E5olEi2O2oZM5-_-kSET1k2rcZ8lXGPjneR1ktuNP6SAR8Ws1jcL39YHl5iU_H2vxhcGW9gCy_fWfEPVHsFZcLRqNnES-Bl5BYHYku7XIOe_B2ltaUDp6kaRLiWKD59YrKXEncFn3DB4Sm3avkBRgYPck7IRO2HVzBpBYXUPATesKNVlcLK5dug7Elhgv87-HWV99NDTwaQwtqzLhO2XdmJ",
+        "e": "AQAB",
+        "x5c": [
+          "MIIFozCCA4ugAwIBAgITFAAAA39PFXhYiem/yAAAAAADfzANBgkqhkiG9w0BAQsFADBKMQswCQYDVQQGEwJVWTEPMA0GA1UEChMGQUdFU0lDMRMwEQYDVQQLEwpUZWNub2xvZ2lhMRUwEwYDVQQDEwxDQSBkZSBsYSBQR0UwHhcNMjExMTE2MTYwMDMyWhcNMjMxMTE2MTYxMDMyWjCBiDELMAkGA1UEBhMCVVkxEzARBgNVBAgTCk1vbnRldmlkZW8xEzARBgNVBAcTCk1vbnRldmlkZW8xDzANBgNVBAoTBkFHRVNJQzEUMBIGA1UECxMLT3BlcmFjaW9uZXMxKDAmBgNVBAMTH2NlcnRpZmljYWRvIGNvdmlkIG5idGxzIHByZXByb2QwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC0ih14ei03Upou5M9/F3WquNLyuu4rKHhxXLcLPDpc1LHXB9fwFbazl1kMJZ8WoC+SF1hKqUhE5iCfhu5qkmAA6aVCTSj995NrixdxgCRweNPWxocXwSyG2abchBPPPCr8EWycIzIA5BPVYob2ik5TvXOMouRfr6TKtP7CG/wdKnfXqjgXYippPW+RRfsC4ZwD/Giu58gJJdja2uavGEgfVWM2AJzd5WYZLGGEfYK3OH1jAbGIvVAJM9N7XLxecV8Cbg2C7VULcvnvq2POIuN9l3Mq9eQdCt4os1BR6EH8TmiUSLY7ahkzn7/6RIRPWTatxnyVcY+Od5HWS240/pIBHxazWNwvf1geXmJT8fa/GFwZb2ALL99Z8Q9UewVlwtGo2cRL4GXkFgdiS7tcg578HaW1pQOnqRpEuJYoPn1ispcSdwWfcMHhKbdq+QFGBg9yTshE7YdXMGkFhdQ8BN6wo1WVwsrl26DsSWGC/zv4dZX300NPBpDC2rMuE7Zd2YkCAwEAAaOBwjCBvzAOBgNVHQ8BAf8EBAMCB4AwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwIwHQYDVR0OBBYEFFSTour8qYafA8Zvk2HAN4EIsXvUMB8GA1UdIwQYMBaAFOgrEuNW02JTPHfAaGPkEATpp2UAMEcGA1UdHwRAMD4wPKA6oDiGNmh0dHA6Ly9wZ2VjYS5wZ2UucmVkLnV5L2NlcnRkYXRhL2Nhcm9vdC5wZ2UucmVkLnV5LmNybDAMBgNVHRMBAf8EAjAAMA0GCSqGSIb3DQEBCwUAA4ICAQCDONNz//8IkxzLFIRB39/w0bWhOBUIqTQqRGg72uMI9s9stURxL17Mj5r5qLtkgZbmIU0nehZxa6cEG8XICwvt0DkDg+gq8Jih12gWwKKrvcIymewPs/cENVgDO/dVu3w0DyES96UqlWnTPuO1YR/6RbIdmhBpbES9Jy/alwxZfTM9KCn8bgVPcWkUtaJVBEdWCIZV/l3GTk9ij8E9jFUsZ4k030crSdtAtfJ7YIdIr7wCuoaFDR8ovg6LvpItuO98THRk80pCOFqWggXHuPlIU8AzmXLZ8bPqhn2lU9McvvG7xSWyybcQn9ypTxAmDWck49GWRD8UDnV9aiBPejXa6AzEUz4aNVtkLB/GT96qL45w8etBlI97CD2TMaJf9ggodgqoTDX7A+CUC3JmSF23Rm6D4Iq9IYP3HQNJX5tOFu00b6+0S26S9/4Y45zENc2TqwI5sWrsSMzG/njcEDPPoE7+OgcLooC3zFPMuG6uE/y+hvVk1gkhKzdfC7pry6UYc4LUbRs7zQwpL3P/+jQrnfQ1uiu9XPfxHe4N5FE0lhBCj418UhK3ck+ERxfzgcVZYg/buFnfFWky838fuD3iavvY8kCk6666ecw6lR74UYM76G/6Y5HV2COFP8El1A3vTtGg8K9l2XSw/+v5EnKuLBpN/X97av7ocwg8H6jpSw=="
+        ]
+      }
+    }
+  ]
+}

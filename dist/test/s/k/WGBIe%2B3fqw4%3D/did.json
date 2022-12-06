@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:WGBIe%2B3fqw4%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:WGBIe%2B3fqw4%3D#WGBIe%252B3fqw4%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:WGBIe%2B3fqw4%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "xPb7a_n-MEarjp8eZeZLEYM1ax1ZP_7P40X1YYqkHJY",
+        "y": "ILBd81BdoohJaooMvbpCQW9-rvMn7R8dPepQwECu5LY",
+        "crv": "P-256",
+        "x5c": [
+          "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"
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:21Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zbWNskHLD8bnR4oM9iaccZdeP4SXkQ2ogFCEvHo5A1h95vDBQkmHM8h5vmyxGcvosJg8cAfj6Ss6zmhthcgMJSiq"
+  }
+}

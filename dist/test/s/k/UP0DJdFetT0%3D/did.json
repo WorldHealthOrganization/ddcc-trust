@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:UP0DJdFetT0%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:UP0DJdFetT0%3D#UP0DJdFetT0%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:UP0DJdFetT0%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "746gIg1IeDRpiFhVcg6JwOk6xSGpm1TjL5q333IyCXc",
+        "y": "YcQlhDrnElAYIO-lG-k7kB5tcNkOnTHk2oLGOYBa7JA",
+        "crv": "P-256",
+        "x5c": [
+          "MIIDHDCCAsKgAwIBAgIUYHvHPhqD8aRNd6Bdr2Q7FYCUHn8wCgYIKoZIzj0EAwIwgYgxGTAXBgNVBAMMEEEgQ1NDQSBIZWFsdGggTkwxCjAIBgNVBAUTATExLTArBgNVBAsMJE1pbmlzdHJ5IG9mIEhlYWx0aCBXZWxmYXJlIGFuZCBTcG9ydDEjMCEGA1UECgwaS2luZ2RvbSBvZiB0aGUgTmV0aGVybGFuZHMxCzAJBgNVBAYTAk5MMB4XDTIxMDUyNjExMjUwOVoXDTQxMDUyMTExMjUwOVowgYgxGTAXBgNVBAMMEEEgQ1NDQSBIZWFsdGggTkwxCjAIBgNVBAUTATExLTArBgNVBAsMJE1pbmlzdHJ5IG9mIEhlYWx0aCBXZWxmYXJlIGFuZCBTcG9ydDEjMCEGA1UECgwaS2luZ2RvbSBvZiB0aGUgTmV0aGVybGFuZHMxCzAJBgNVBAYTAk5MMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE746gIg1IeDRpiFhVcg6JwOk6xSGpm1TjL5q333IyCXdhxCWEOucSUBgg76Ub6TuQHm1w2Q6dMeTagsY5gFrskKOCAQYwggECMBIGA1UdEwEB/wQIMAYBAf8CAQAwHwYDVR0jBBgwFoAUId1LXXLYs1A32CEpxZEmf3JaXEowGwYDVR0SBBQwEqQQMA4xDDAKBgNVBAcMA05MRDAbBgNVHREEFDASpBAwDjEMMAoGA1UEBwwDTkxEMDUGA1UdHwQuMCwwKqAooCaGJGh0dHA6Ly9jcmwubnBrZC5ubC9DUkxzL0EtSGVhbHRoLmNybDAdBgNVHQ4EFgQUId1LXXLYs1A32CEpxZEmf3JaXEowKwYDVR0QBCQwIoAPMjAyMTA1MjYxMTI1MDlagQ8yMDI0MDUyNTExMjUwOVowDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0gAMEUCIG4K33mbvcMtrIsBYA2eoWqk5J7WJ5jp0FILBEfTAeyVAiEA9BpFZs3RRQVHgCd3zz1iAcB0tulcUpFC9v36jtzpk7w="
+        ]
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-06T16:56:21Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z2oQQ8Z4RgQ4fdiqCCMo2g48y3DcxYD5Xy9TiXY58iyZnJ3djiFJPRgxFGFvtmDctVeBW96bJ65EbtSLPoBFbvSbc"
+  }
+}

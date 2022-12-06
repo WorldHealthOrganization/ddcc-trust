@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:b0RhLyvUxgs%3D",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:b0RhLyvUxgs%3D#b0RhLyvUxgs%253D",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:b0RhLyvUxgs%3D",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "x": "tItqiu544khZI4AO3EWn2_IIcNBe6_4TkdzqtKfk2x4",
+        "y": "MtQKYR0U4lcAYYH5Y31-6S1q4dkp4I_PBMz1Mnl0pa4",
+        "crv": "P-256",
+        "x5c": [
+          "MIIBwzCCAWmgAwIBAgIEYMfSczAKBggqhkjOPQQDAjBAMQswCQYDVQQGEwJIVTEOMAwGA1UECgwFRUVTWlQxITAfBgNVBAMMGERHQ19DU0NBX0FDQ18yMDIxMDYwOV8wMTAeFw0yMTA2MTQyMjA0MzVaFw0yMzA2MTQyMjA0MzVaMD8xCzAJBgNVBAYTAkhVMQ4wDAYDVQQKDAVFRVNaVDEgMB4GA1UEAwwXREdDX0RTQ19BQ0NfMjAyMTA2MTRfMDIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS0i2qK7njiSFkjgA7cRafb8ghw0F7r/hOR3Oq0p+TbHjLUCmEdFOJXAGGB+WN9fuktauHZKeCPzwTM9TJ5dKWuo1IwUDAOBgNVHQ8BAf8EBAMCB4AwHwYDVR0jBBgwFoAU5lLohU1Z4D5vbdCuBkU4cLrFzFowHQYDVR0OBBYEFLSud34p+Usn7j4yyoiKfgSuk7a8MAoGCCqGSM49BAMCA0gAMEUCIQD4zkHgwTUQ0/U14/podTs388ZRTtwud0R4rRZTNVY5CAIgGkPo9ADV88iaqYoPd4JRXH2BhVl7FFPeDmA2o8Q+whc=",
+          "MIIB2DCCAX6gAwIBAgIEYL/vwDAKBggqhkjOPQQDAjBAMQswCQYDVQQGEwJIVTEOMAwGA1UECgwFRUVTWlQxITAfBgNVBAMMGERHQ19DU0NBX0FDQ18yMDIxMDYwOV8wMTAeFw0yMTA2MDgyMjMxMjhaFw0yNTA2MDgyMjMxMjhaMEAxCzAJBgNVBAYTAkhVMQ4wDAYDVQQKDAVFRVNaVDEhMB8GA1UEAwwYREdDX0NTQ0FfQUNDXzIwMjEwNjA5XzAxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVOzvNQdnwwD1lA/hNx+3xsEloFyy0BEdb5cLmatuK13ParkBSHBoID+hXbnynpjmAK+7rwdLN6nc3wymiRowBqNmMGQwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAQYwHwYDVR0jBBgwFoAU5lLohU1Z4D5vbdCuBkU4cLrFzFowHQYDVR0OBBYEFOZS6IVNWeA+b23QrgZFOHC6xcxaMAoGCCqGSM49BAMCA0gAMEUCIF5zSLNpM1mSQsNM3i3RJZ2tOM1baIhYPieYnhbIK9iNAiEAzpA4yhK9S0rHhz/QDslZ1/KDuCjFrCuX56Vfn/+6q6s="
+        ]
+      }
+    }
+  ]
+}

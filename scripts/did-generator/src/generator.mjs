@@ -107,35 +107,39 @@ async function process(srcDir, dstDir, didRoot, signerKeyPair) {
   
   // Converts all certs to JWKs in parallel
   for (const file of allFiles) {
-    if (file.endsWith(".pem")) {
-      console.log(colors.ok, file)
-      const kid = buildKid(file)
-      const pem = fs.readFileSync(file, "utf8")
-      
-      const wrappedJwks = wrapJwk(kid, pemToJwk(pem, certDict))
-
-      const unsignedDidURI =  didRoot+":u:k:"+kid
-      unsignedDIDs[unsignedDidURI] = await assembleWrite(unsignedDidURI, dstDir+"/u/k/"+kid, wrappedJwks)
-
-      const signedDidURI =  didRoot+":s:k:"+kid
-      signedDIDs[signedDidURI] = await assembleSignWrite(signedDidURI, dstDir+"/s/k/"+kid, wrappedJwks, signerKeyPair)
-    }
-
-    if (file.endsWith(".json")) {
-      const kid = buildKid(file)
-      const jsonObj = JSON.parse(fs.readFileSync(file, "utf8"))
-      if ('keys' in jsonObj && jsonObj["keys"][0]) { // SHC File
+    try {
+      if (file.endsWith(".pem")) {
         console.log(colors.ok, file)
-        const wrappedJwks = unwrapSHCJwks(jsonObj)
-
+        const kid = buildKid(file)
+        const pem = fs.readFileSync(file, "utf8")
+        
+        const wrappedJwks = wrapJwk(kid, pemToJwk(pem, certDict))
+  
         const unsignedDidURI =  didRoot+":u:k:"+kid
         unsignedDIDs[unsignedDidURI] = await assembleWrite(unsignedDidURI, dstDir+"/u/k/"+kid, wrappedJwks)
   
         const signedDidURI =  didRoot+":s:k:"+kid
         signedDIDs[signedDidURI] = await assembleSignWrite(signedDidURI, dstDir+"/s/k/"+kid, wrappedJwks, signerKeyPair)
-      } else {
-        console.log(colors.canceled, file)
       }
+  
+      if (file.endsWith(".json")) {
+        const kid = buildKid(file)
+        const jsonObj = JSON.parse(fs.readFileSync(file, "utf8"))
+        if ('keys' in jsonObj && jsonObj["keys"][0]) { // SHC File
+          console.log(colors.ok, file)
+          const wrappedJwks = unwrapSHCJwks(jsonObj)
+  
+          const unsignedDidURI =  didRoot+":u:k:"+kid
+          unsignedDIDs[unsignedDidURI] = await assembleWrite(unsignedDidURI, dstDir+"/u/k/"+kid, wrappedJwks)
+    
+          const signedDidURI =  didRoot+":s:k:"+kid
+          signedDIDs[signedDidURI] = await assembleSignWrite(signedDidURI, dstDir+"/s/k/"+kid, wrappedJwks, signerKeyPair)
+        } else {
+          console.log(colors.canceled, file)
+        }
+      }
+    } catch {
+      console.log(colors.canceled, "Error Processing " + file)
     }
   }
 

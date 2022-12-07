@@ -22,7 +22,7 @@ export function assemble(didController, wrappedJwks) {
 
   wrappedJwks.forEach((wrap) => {
     didDocument.verificationMethod.push({
-      "id": didController+"#"+encodeURIComponent(wrap.kid),
+      "id": didController+"#"+wrap.kid,
       "type": "JsonWebKey2020",
       "controller": didController,
       "publicKeyJwk": wrap.publicKeyJwk

@@ -69,7 +69,20 @@ function unwrapSHCJwks(jwks) {
 }
 
 function writeDidJson(dest, jsonObj) {
-  fse.outputFile(dest+"/did.json", JSON.stringify(jsonObj, null, 2));
+  let currentJson = JSON.parse(fs.readFileSync(dest+"/did.json", "utf8"))
+  let newJson = JSON.parse(JSON.stringify(jsonObj, null, 2))
+
+  if (currentJson["proof"]) {
+    delete currentJson["proof"]["created"]
+    delete currentJson["proof"]["proofValue"]
+
+    delete newJson["proof"]["created"]
+    delete newJson["proof"]["proofValue"]
+  }
+
+  if (JSON.stringify(currentJson, null, 2) !== JSON.stringify(newJson, null, 2)) {
+    fse.outputFile(dest+"/did.json", JSON.stringify(jsonObj, null, 2));
+  }  
 }
 
 async function assembleWrite(didController, destFile, wrappedJwks) {
@@ -138,7 +151,8 @@ async function process(srcDir, dstDir, didRoot, signerKeyPair) {
           console.log(colors.canceled, file)
         }
       }
-    } catch {
+    } catch (exceptionVar) {
+      console.log(exceptionVar)
       console.log(colors.canceled, "Error Processing " + file)
     }
   }

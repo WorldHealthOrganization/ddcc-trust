@@ -655,14 +655,14 @@
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:india#india",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:japan#f1vhQP9oOZkityrguynQqB4aVh8u9xcf3wm4AFF4aVw",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:uae#uae",
-    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:ca#7JvktUpf1_9NPwdM-70FJT3YdyTiSe2IvmVxxgDSRb0",
+    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fmyvaccinerecord.cdph.ca.gov%2Fcreds#7JvktUpf1_9NPwdM-70FJT3YdyTiSe2IvmVxxgDSRb0",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds#n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ"
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-12-07T14:27:01Z",
+    "created": "2022-12-07T14:50:15Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "zTBPjy4cHSwAz2rYTrcgybKctxbLEC4ez9oSK9FQoa3LYcsWPv9kHAXL9Z3YcZSP5g7bpNQ9dPJbSpf9449eR9t9"
+    "proofValue": "z3iiQ3GdqiCjrRg1x8HjTNAPW9ykMXwicjpJfto5hVkmqjkTRpxf9D3aC1KFAmujznEGsKWVHyCFyXsdJWEU5N249"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fmyvaccinerecord.cdph.ca.gov%2Fcreds",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fmyvaccinerecord.cdph.ca.gov%2Fcreds#7JvktUpf1_9NPwdM-70FJT3YdyTiSe2IvmVxxgDSRb0",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fmyvaccinerecord.cdph.ca.gov%2Fcreds",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "7JvktUpf1_9NPwdM-70FJT3YdyTiSe2IvmVxxgDSRb0",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "3dQz5ZlbazChP3U7bdqShfF0fvSXLXD9WMa1kqqH6i4",
+        "y": "FV4AsWjc7ZmfhSiHsw2gjnDMKNLwNqi2jMLmJpiKWtE"
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-07T14:50:15Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4zLDQvJJtkvNQobiTuEFMhedqQTVMDyijxiEfjg5TF8hoaXQ2d3c385H7r45ibAZnFeoZX6o8KKGqTKDpC4g49yi"
+  }
+}

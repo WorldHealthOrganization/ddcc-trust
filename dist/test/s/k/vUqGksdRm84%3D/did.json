@@ -7,7 +7,7 @@
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:vUqGksdRm84%3D",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:vUqGksdRm84%3D#vUqGksdRm84%253D",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:vUqGksdRm84%3D#vUqGksdRm84%3D",
       "type": "JsonWebKey2020",
       "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:s:k:vUqGksdRm84%3D",
       "publicKeyJwk": {
@@ -24,9 +24,9 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-12-07T14:50:16Z",
+    "created": "2022-12-07T15:57:29Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z4dV2SHapiqdwWL5rqUpktTRHkPuFG9GeKZAANbqGVvtTAwyN1SidMr8Ji8Lpbxa3aWCVjREKWY7oCVNmxQYjcugb"
+    "proofValue": "z4DA29ZXSytwPX1cWWs7jcdENKsobrhH421fjDRYUxEKDFvkJ3DRmgndwwF6qGZJnojkK98gDfCYYS4SRdP8bagV8"
   }
 }

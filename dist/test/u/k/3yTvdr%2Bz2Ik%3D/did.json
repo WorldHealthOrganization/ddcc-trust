@@ -6,7 +6,7 @@
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:3yTvdr%2Bz2Ik%3D",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:3yTvdr%2Bz2Ik%3D#3yTvdr%252Bz2Ik%253D",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:3yTvdr%2Bz2Ik%3D#3yTvdr%2Bz2Ik%3D",
       "type": "JsonWebKey2020",
       "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:test:u:k:3yTvdr%2Bz2Ik%3D",
       "publicKeyJwk": {

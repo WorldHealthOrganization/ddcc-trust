@@ -9599,9 +9599,9 @@
       }
     },
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:wa#n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds#n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:wa",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds",
       "publicKeyJwk": {
         "kty": "EC",
         "kid": "n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",

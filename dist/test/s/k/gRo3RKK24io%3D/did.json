@@ -24,9 +24,9 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-12-06T16:56:22Z",
+    "created": "2022-12-07T14:27:00Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "z44nt4URPNvPecii2DWAYd6Rwa2K3tkUh8PHNe7A7kNU8pkihanweNzwtj9tScvc7BoHsuaP83mPf82TUmWgVLwmc"
+    "proofValue": "zi1gCR5tazWk36wVf7yRrCyuFkjpZ7qumzRwBWsNLVZ8QxKXCJSCLoFRztFrj9g3isLHpbfuNrYa3cGcR5aaJTgj"
   }
 }

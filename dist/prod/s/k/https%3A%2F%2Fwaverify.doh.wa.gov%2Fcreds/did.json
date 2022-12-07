@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds#n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwaverify.doh.wa.gov%2Fcreds",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "fdoNeWZk1SrLpN3QDua5vF3_rA-SMtJC_FyGOuoxfQM",
+        "y": "T6qVaWSULDDzPhWL0fK9lq1yPC9YFt_wOQYC9VlKRa4"
+      }
+    }
+  ],
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2022-12-07T14:27:01Z",
+    "verificationMethod": "did:web:PCF.PW:1A13#WEB",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z41QB6R3evVGHKUXNerz68ff1cGCQ6eLx8uGr2MEfoY7Sw9PamrHCuM2wTVbrixxBuGu5QzY2zBdxBgkPiL1W9JBM"
+  }
+}

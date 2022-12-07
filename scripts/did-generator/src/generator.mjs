@@ -69,20 +69,24 @@ function unwrapSHCJwks(jwks) {
 }
 
 function writeDidJson(dest, jsonObj) {
-  let currentJson = JSON.parse(fs.readFileSync(dest+"/did.json", "utf8"))
-  let newJson = JSON.parse(JSON.stringify(jsonObj, null, 2))
+  if (fs.existsSync(dest+"/did.json")) {
+    let currentJson = JSON.parse(fs.readFileSync(dest+"/did.json", "utf8"))
+    let newJson = JSON.parse(JSON.stringify(jsonObj, null, 2))
 
-  if (currentJson["proof"]) {
-    delete currentJson["proof"]["created"]
-    delete currentJson["proof"]["proofValue"]
+    if (currentJson["proof"]) {
+      delete currentJson["proof"]["created"]
+      delete currentJson["proof"]["proofValue"]
 
-    delete newJson["proof"]["created"]
-    delete newJson["proof"]["proofValue"]
-  }
+      delete newJson["proof"]["created"]
+      delete newJson["proof"]["proofValue"]
+    }
 
-  if (JSON.stringify(currentJson, null, 2) !== JSON.stringify(newJson, null, 2)) {
+    if (JSON.stringify(currentJson, null, 2) !== JSON.stringify(newJson, null, 2)) {
+      fse.outputFile(dest+"/did.json", JSON.stringify(jsonObj, null, 2));
+    } 
+  } else {
     fse.outputFile(dest+"/did.json", JSON.stringify(jsonObj, null, 2));
-  }  
+  }
 }
 
 async function assembleWrite(didController, destFile, wrappedJwks) {

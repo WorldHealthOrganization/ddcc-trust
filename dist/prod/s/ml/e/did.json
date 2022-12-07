@@ -7,262 +7,9 @@
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:ml:e",
   "verificationMethod": [
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:british-columbia#XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer#2XlWk1UQMqavMtLt-aX35q_q9snFtGgdjH4-Y1gfH1M",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:british-columbia",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "xscSbZemoTx1qFzFo-j9VSnvAXdv9K-3DchzJvNnwrY",
-        "y": "jA5uS5bz8R2nxf_TU-0ZmXq6CKWZhAG1Y4icAx8a9CA"
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#Z8YjtXO3hGPpbDR9wMcrifbcL-PswLyMFhEJGSn1yC0",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "Z8YjtXO3hGPpbDR9wMcrifbcL-PswLyMFhEJGSn1yC0",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "oxD89LV7Y_GBRei7wNmKLYdo-25ujdI74OdC9NkQlyQ",
-        "y": "NNY2ntabDPKk_5fnjpRyxkre34Ru7NzrFgcWgRKb2I8",
-        "date": 1630513678410
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#uXqBkl4jkadfFUtcrkeVtXRaCCy-nNHA1aD6nKb0OJ4",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "uXqBkl4jkadfFUtcrkeVtXRaCCy-nNHA1aD6nKb0OJ4",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "YwKKFnC2hgQHZVsqKUz9oDwjF0FvCrYIKicT9HpwuLQ",
-        "y": "9WuBIW9S5eXKRhkFW2LvcVsgFGgOURlMIU1i_syhbyg",
-        "date": 1630517153168
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#rDW5Ssu6mvGAnouM1oaeiDh06OdTePgH9ZwC1MbwAoY",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "rDW5Ssu6mvGAnouM1oaeiDh06OdTePgH9ZwC1MbwAoY",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "M6tuTL6MBUHZNfzGUTivBcpGXord54xHiKVL3XIOLM0",
-        "y": "fgSw0roeZpXgYLHhfSz-W_XWMZu-RqbR7my-_d9Vvl8",
-        "date": 1630517520701
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#AWbze1dsT_69BBvlCv8g8rzUAyIBM3q6OT7zMQxBWVU",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "AWbze1dsT_69BBvlCv8g8rzUAyIBM3q6OT7zMQxBWVU",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "nbI9SWaXfrEnbxG36Q8EWkl-sKNirCAlGqpseG1BERA",
-        "y": "ogVD4hZwgT30g-h6UKZBTMIbYeg6u4W7TI7mzvp1Fy8",
-        "date": 1630600429633
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#icKN8sxNH2ijHGcmqCOWHKziRPd25BoENF5Z0dVrkaI",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "icKN8sxNH2ijHGcmqCOWHKziRPd25BoENF5Z0dVrkaI",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "AjAdLBY7cpq5m3Eq5MTtENvs5TuBPbyqRcNa5hTxgq8",
-        "y": "MKxRT1jZpZpLjx9cefytBiE5s18M-jSAmMNYmldGjbE",
-        "date": 1630613433678
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#SkSCQeF4JDcLSShAM5wejAAdB8rIT3X9-EH8rLNk0fY",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "SkSCQeF4JDcLSShAM5wejAAdB8rIT3X9-EH8rLNk0fY",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "5pwa78_VUGsxRK0lP_PODB2wBofjlxcaFl6r0N1-ODE",
-        "y": "oV2yJ0qVZG5INljTl5AUbU1uMxlVFS-BhNC12LzdHN0",
-        "date": 1630613435615
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#L0ACjkybPcCgJOrMywfz3gJGDeEvxkUSa2j9Pbhjwz8",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "L0ACjkybPcCgJOrMywfz3gJGDeEvxkUSa2j9Pbhjwz8",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "CTa6_OO8QKrrlNXjXAbDc0rnvPRGo5UpfmGnuCrWiPw",
-        "y": "UXbNAiw7sSImEvOwWH1NytR8MXSaXCb6sWR9z4fTA_M",
-        "date": 1630613436458
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#pCmOvJBUfo30WuG9UVlDCOvyBhPScLU2_CrAGy9A4Q8",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "pCmOvJBUfo30WuG9UVlDCOvyBhPScLU2_CrAGy9A4Q8",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "kvwC_MYV8lBVfeamcGj5XXV944VwhSJZ_rBKD0Hcn_s",
-        "y": "UR8MzZCVIArauwJ-OODIbim0HLRbCFkDPXNjPsoRmfM",
-        "date": 1630613437404
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#gzeRVlR44Ia5cL67gN-6HhWsBikN_ZodlGAeGLv_HsI",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "gzeRVlR44Ia5cL67gN-6HhWsBikN_ZodlGAeGLv_HsI",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "QmZMR0zgMTKLgqSKUeOfV10moL5nLcjfeUIO3Ns1u0M",
-        "y": "FP8vGUU-wAkqUd07o5q2tdakV5rJ6hg2cT0bgunW9kU",
-        "date": 1630613438138
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#D86U5NZ_OusITiBEqmgW2gRUAw1vhcbRtHujJ4wPx7w",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "D86U5NZ_OusITiBEqmgW2gRUAw1vhcbRtHujJ4wPx7w",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "J24rRVpojPItd1Wda4ZkIc6gooPEDzlstiSQMqHaURA",
-        "y": "X5jqWz8RY6Zkc6Ib6WNnnkAJHwt1C-PmtELC2c13hyQ",
-        "date": 1630613469805
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#JMCyyrr9wjXT5FY8rx6Jiel4DCfXS0ZDQPUuGdv4P1k",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "JMCyyrr9wjXT5FY8rx6Jiel4DCfXS0ZDQPUuGdv4P1k",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "fY8esOCER1T-68OIvXtizxtXVC7KT9qsztZQhll3UJk",
-        "y": "6J1DpZVjPGEQG9EApygaM0ZkfQOLRAWuN_YB3BT93DU",
-        "date": 1631122847087
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#B5zoHRXFX54o1XgT9IbQLEqTc1GK4SEJg9vjd-K4n3o",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "B5zoHRXFX54o1XgT9IbQLEqTc1GK4SEJg9vjd-K4n3o",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "Ze3--8ERukpW9nMd317lQJ_97qg5q7BEqFMoJmGj59s",
-        "y": "H36ot9jzPKpPVa4aHka7SXnPOTjEBdtZRZ4wN-OUHQw",
-        "date": 1631207785437
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island#cZxJnAOT6390E103SoaVyX2RNJenO46qyBcceU4A8go",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:edward-island",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "cZxJnAOT6390E103SoaVyX2RNJenO46qyBcceU4A8go",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "KhqF3iMvKDeiarW85OFrKstJWK5maNEi1H6JttLfky8",
-        "y": "RWUlC2s1aEdminnoqyMxtyU4fVlsDLJt36feT0qsJmU",
-        "date": 1634299350636
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:northwest#8C-9TNgyGuOqc-3FXyNRq6m5U9S1wyhCS1TvpgjzkoU",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:northwest",
-      "publicKeyJwk": {
-        "alg": "ES256",
-        "crlVersion": "1",
-        "crv": "P-256",
-        "date": 1631112755371,
-        "kid": "8C-9TNgyGuOqc-3FXyNRq6m5U9S1wyhCS1TvpgjzkoU",
-        "kty": "EC",
-        "use": "sig",
-        "x": "C-9Lltax_iU6iYdK8DdCZzv4cQN6SFVUG7ACaCT_MKM",
-        "y": "_qaENBMJz6iLf1qyYMx2_D6fXxbbNoHbLcfdPF9rUI0"
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nova-scotia#UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nova-scotia",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "kIaIeOhhxpiN13sDs6RKVzCpvxxObI9adKF5YEmKngM",
-        "y": "AZPQ7CHd3UHp0i4a4ua1FhIq8SJ__BuHgDESuK3A_zQ"
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nunavut#MXH6EAfEDZ0JH46r3j5axkCTo-QdreVtEXE-dbvydUU",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:nunavut",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "kid": "MXH6EAfEDZ0JH46r3j5axkCTo-QdreVtEXE-dbvydUU",
-        "use": "sig",
-        "alg": "ES256",
-        "crv": "P-256",
-        "x": "TW2mjeWs2JRBDblltiq2W00M_Q3gXnCl5FlLKIKV3oQ",
-        "y": "sbraf7XcT2iH7uLUtH_grf5eVF7LltpVb9z8E31WGj4"
-      }
-    },
-    {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:quebec#2XlWk1UQMqavMtLt-aX35q_q9snFtGgdjH4-Y1gfH1M",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:quebec",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer",
       "publicKeyJwk": {
         "kty": "EC",
         "kid": "2XlWk1UQMqavMtLt-aX35q_q9snFtGgdjH4-Y1gfH1M",
@@ -274,9 +21,9 @@
       }
     },
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:quebec#sZ5ca2a73SgPl7aC9v4PyA4cR5zk9A6BhHX8I2CVNwM",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer#sZ5ca2a73SgPl7aC9v4PyA4cR5zk9A6BhHX8I2CVNwM",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:quebec",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer",
       "publicKeyJwk": {
         "kty": "EC",
         "kid": "sZ5ca2a73SgPl7aC9v4PyA4cR5zk9A6BhHX8I2CVNwM",
@@ -289,9 +36,37 @@
       }
     },
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:yukon#UnHGY-iyCIr__dzyqcxUiApMwU9lfeXnzT2i5Eo7TvE",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.gov.nu.ca%2Fpvc#MXH6EAfEDZ0JH46r3j5axkCTo-QdreVtEXE-dbvydUU",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:yukon",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.gov.nu.ca%2Fpvc",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "MXH6EAfEDZ0JH46r3j5axkCTo-QdreVtEXE-dbvydUU",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "TW2mjeWs2JRBDblltiq2W00M_Q3gXnCl5FlLKIKV3oQ",
+        "y": "sbraf7XcT2iH7uLUtH_grf5eVF7LltpVb9z8E31WGj4"
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.novascotia.ca%2Fissuer#UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.novascotia.ca%2Fissuer",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "UJrT9jU8vOCUl4xsI1RZjOPP8hFUv7n9mhVtolqH9qw",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "kIaIeOhhxpiN13sDs6RKVzCpvxxObI9adKF5YEmKngM",
+        "y": "AZPQ7CHd3UHp0i4a4ua1FhIq8SJ__BuHgDESuK3A_zQ"
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.service.yukon.ca%2Fissuer#UnHGY-iyCIr__dzyqcxUiApMwU9lfeXnzT2i5Eo7TvE",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.service.yukon.ca%2Fissuer",
       "publicKeyJwk": {
         "kty": "EC",
         "kid": "UnHGY-iyCIr__dzyqcxUiApMwU9lfeXnzT2i5Eo7TvE",
@@ -309,9 +84,9 @@
       }
     },
     {
-      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:yukon#5xg8uSlGi4aHdSG4KG9R8auOmKh5VS38Ao44KmYMHgo",
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.service.yukon.ca%2Fissuer#5xg8uSlGi4aHdSG4KG9R8auOmKh5VS38Ao44KmYMHgo",
       "type": "JsonWebKey2020",
-      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:yukon",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvc.service.yukon.ca%2Fissuer",
       "publicKeyJwk": {
         "kty": "EC",
         "kid": "5xg8uSlGi4aHdSG4KG9R8auOmKh5VS38Ao44KmYMHgo",
@@ -326,6 +101,231 @@
         "x": "MWssbIORcN27ebWveCRSjNBUGZKyx7wJVFH2Hqb89gM",
         "y": "tNyo1Q62wzEzUlk4rxkw1f_Yay4wbpbaxQiUTDQAIrc",
         "ctr": 1
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#Z8YjtXO3hGPpbDR9wMcrifbcL-PswLyMFhEJGSn1yC0",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "Z8YjtXO3hGPpbDR9wMcrifbcL-PswLyMFhEJGSn1yC0",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "oxD89LV7Y_GBRei7wNmKLYdo-25ujdI74OdC9NkQlyQ",
+        "y": "NNY2ntabDPKk_5fnjpRyxkre34Ru7NzrFgcWgRKb2I8",
+        "date": 1630513678410
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#uXqBkl4jkadfFUtcrkeVtXRaCCy-nNHA1aD6nKb0OJ4",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "uXqBkl4jkadfFUtcrkeVtXRaCCy-nNHA1aD6nKb0OJ4",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "YwKKFnC2hgQHZVsqKUz9oDwjF0FvCrYIKicT9HpwuLQ",
+        "y": "9WuBIW9S5eXKRhkFW2LvcVsgFGgOURlMIU1i_syhbyg",
+        "date": 1630517153168
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#rDW5Ssu6mvGAnouM1oaeiDh06OdTePgH9ZwC1MbwAoY",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "rDW5Ssu6mvGAnouM1oaeiDh06OdTePgH9ZwC1MbwAoY",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "M6tuTL6MBUHZNfzGUTivBcpGXord54xHiKVL3XIOLM0",
+        "y": "fgSw0roeZpXgYLHhfSz-W_XWMZu-RqbR7my-_d9Vvl8",
+        "date": 1630517520701
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#AWbze1dsT_69BBvlCv8g8rzUAyIBM3q6OT7zMQxBWVU",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "AWbze1dsT_69BBvlCv8g8rzUAyIBM3q6OT7zMQxBWVU",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "nbI9SWaXfrEnbxG36Q8EWkl-sKNirCAlGqpseG1BERA",
+        "y": "ogVD4hZwgT30g-h6UKZBTMIbYeg6u4W7TI7mzvp1Fy8",
+        "date": 1630600429633
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#icKN8sxNH2ijHGcmqCOWHKziRPd25BoENF5Z0dVrkaI",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "icKN8sxNH2ijHGcmqCOWHKziRPd25BoENF5Z0dVrkaI",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "AjAdLBY7cpq5m3Eq5MTtENvs5TuBPbyqRcNa5hTxgq8",
+        "y": "MKxRT1jZpZpLjx9cefytBiE5s18M-jSAmMNYmldGjbE",
+        "date": 1630613433678
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#SkSCQeF4JDcLSShAM5wejAAdB8rIT3X9-EH8rLNk0fY",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "SkSCQeF4JDcLSShAM5wejAAdB8rIT3X9-EH8rLNk0fY",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "5pwa78_VUGsxRK0lP_PODB2wBofjlxcaFl6r0N1-ODE",
+        "y": "oV2yJ0qVZG5INljTl5AUbU1uMxlVFS-BhNC12LzdHN0",
+        "date": 1630613435615
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#L0ACjkybPcCgJOrMywfz3gJGDeEvxkUSa2j9Pbhjwz8",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "L0ACjkybPcCgJOrMywfz3gJGDeEvxkUSa2j9Pbhjwz8",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "CTa6_OO8QKrrlNXjXAbDc0rnvPRGo5UpfmGnuCrWiPw",
+        "y": "UXbNAiw7sSImEvOwWH1NytR8MXSaXCb6sWR9z4fTA_M",
+        "date": 1630613436458
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#pCmOvJBUfo30WuG9UVlDCOvyBhPScLU2_CrAGy9A4Q8",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "pCmOvJBUfo30WuG9UVlDCOvyBhPScLU2_CrAGy9A4Q8",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "kvwC_MYV8lBVfeamcGj5XXV944VwhSJZ_rBKD0Hcn_s",
+        "y": "UR8MzZCVIArauwJ-OODIbim0HLRbCFkDPXNjPsoRmfM",
+        "date": 1630613437404
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#gzeRVlR44Ia5cL67gN-6HhWsBikN_ZodlGAeGLv_HsI",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "gzeRVlR44Ia5cL67gN-6HhWsBikN_ZodlGAeGLv_HsI",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "QmZMR0zgMTKLgqSKUeOfV10moL5nLcjfeUIO3Ns1u0M",
+        "y": "FP8vGUU-wAkqUd07o5q2tdakV5rJ6hg2cT0bgunW9kU",
+        "date": 1630613438138
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#D86U5NZ_OusITiBEqmgW2gRUAw1vhcbRtHujJ4wPx7w",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "D86U5NZ_OusITiBEqmgW2gRUAw1vhcbRtHujJ4wPx7w",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "J24rRVpojPItd1Wda4ZkIc6gooPEDzlstiSQMqHaURA",
+        "y": "X5jqWz8RY6Zkc6Ib6WNnnkAJHwt1C-PmtELC2c13hyQ",
+        "date": 1630613469805
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#JMCyyrr9wjXT5FY8rx6Jiel4DCfXS0ZDQPUuGdv4P1k",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "JMCyyrr9wjXT5FY8rx6Jiel4DCfXS0ZDQPUuGdv4P1k",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "fY8esOCER1T-68OIvXtizxtXVC7KT9qsztZQhll3UJk",
+        "y": "6J1DpZVjPGEQG9EApygaM0ZkfQOLRAWuN_YB3BT93DU",
+        "date": 1631122847087
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#B5zoHRXFX54o1XgT9IbQLEqTc1GK4SEJg9vjd-K4n3o",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "B5zoHRXFX54o1XgT9IbQLEqTc1GK4SEJg9vjd-K4n3o",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "Ze3--8ERukpW9nMd317lQJ_97qg5q7BEqFMoJmGj59s",
+        "y": "H36ot9jzPKpPVa4aHka7SXnPOTjEBdtZRZ4wN-OUHQw",
+        "date": 1631207785437
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca#cZxJnAOT6390E103SoaVyX2RNJenO46qyBcceU4A8go",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fpvcprod.gov.pe.ca",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "cZxJnAOT6390E103SoaVyX2RNJenO46qyBcceU4A8go",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "KhqF3iMvKDeiarW85OFrKstJWK5maNEi1H6JttLfky8",
+        "y": "RWUlC2s1aEdminnoqyMxtyU4fVlsDLJt36feT0qsJmU",
+        "date": 1634299350636
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fsmarthealthcard.phsa.ca%2Fv1%2Fissuer#XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fsmarthealthcard.phsa.ca%2Fv1%2Fissuer",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "xscSbZemoTx1qFzFo-j9VSnvAXdv9K-3DchzJvNnwrY",
+        "y": "jA5uS5bz8R2nxf_TU-0ZmXq6CKWZhAG1Y4icAx8a9CA"
+      }
+    },
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwww.hss.gov.nt.ca%2Fcovax#8C-9TNgyGuOqc-3FXyNRq6m5U9S1wyhCS1TvpgjzkoU",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fwww.hss.gov.nt.ca%2Fcovax",
+      "publicKeyJwk": {
+        "alg": "ES256",
+        "crlVersion": "1",
+        "crv": "P-256",
+        "date": 1631112755371,
+        "kid": "8C-9TNgyGuOqc-3FXyNRq6m5U9S1wyhCS1TvpgjzkoU",
+        "kty": "EC",
+        "use": "sig",
+        "x": "C-9Lltax_iU6iYdK8DdCZzv4cQN6SFVUG7ACaCT_MKM",
+        "y": "_qaENBMJz6iLf1qyYMx2_D6fXxbbNoHbLcfdPF9rUI0"
       }
     },
     {
@@ -9630,9 +9630,9 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-12-07T15:41:16Z",
+    "created": "2022-12-07T17:17:29Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "zK9jWWbDVYzcPn5h2N9LYXadfPdZpYsTyiJVchgUM6qdVrF7ATsed7yR68ERNwFkNcK1ZwmKry2rE1tWzZJX4bfq"
+    "proofValue": "z26PEw4ry3BxzkKhLcWWr2LS7XPSsb2PjbuhkABQ5r5X5FZynQzC2L6NBocd4gsBKQ41s4oVHY6raZxxrpijA4cJw"
   }
 }

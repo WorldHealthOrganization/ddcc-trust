@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fsmarthealthcard.phsa.ca%2Fv1%2Fissuer",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fsmarthealthcard.phsa.ca%2Fv1%2Fissuer#XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fsmarthealthcard.phsa.ca%2Fv1%2Fissuer",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "kid": "XCqxdhhS7SWlPqihaUXovM_FjU65WeoBFGc_ppent0Q",
+        "use": "sig",
+        "alg": "ES256",
+        "crv": "P-256",
+        "x": "xscSbZemoTx1qFzFo-j9VSnvAXdv9K-3DchzJvNnwrY",
+        "y": "jA5uS5bz8R2nxf_TU-0ZmXq6CKWZhAG1Y4icAx8a9CA"
+      }
+    }
+  ]
+}

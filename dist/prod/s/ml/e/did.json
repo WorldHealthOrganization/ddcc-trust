@@ -9571,6 +9571,20 @@
       }
     },
     {
+      "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fsenegal.tbi.ohms.oracle.com#VEccqX9LvPZJXqv11staEs0qPN2OR9bMS_PXEAZODXg",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:https%3A%2F%2Fsenegal.tbi.ohms.oracle.com",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "Sjnn3wQ8CbHa-yJP3y5SFCsHAg_A-s8D_wOAlx2RvkU",
+        "y": "molVzF_KJpgfYZcqa6cjeslhnPuGKr10AN5S2ti-JLs",
+        "kid": "VEccqX9LvPZJXqv11staEs0qPN2OR9bMS_PXEAZODXg",
+        "use": "sig",
+        "alg": "ES256"
+      }
+    },
+    {
       "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:uae#uae",
       "type": "JsonWebKey2020",
       "controller": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:s:k:uae",
@@ -9616,9 +9630,9 @@
   ],
   "proof": {
     "type": "Ed25519Signature2020",
-    "created": "2022-12-07T14:50:15Z",
+    "created": "2022-12-07T15:41:16Z",
     "verificationMethod": "did:web:PCF.PW:1A13#WEB",
     "proofPurpose": "assertionMethod",
-    "proofValue": "zXtnhEB4Zm3gGzpjbHeSwddhvax5go1LMLGHo7easPBBCu57iFgQHD3ztSk6iPECxT9jMSh16U78DBJc5LsMnXGi"
+    "proofValue": "zK9jWWbDVYzcPn5h2N9LYXadfPdZpYsTyiJVchgUM6qdVrF7ATsed7yR68ERNwFkNcK1ZwmKry2rE1tWzZJX4bfq"
   }
 }

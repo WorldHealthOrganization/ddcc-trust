@@ -5,6 +5,7 @@
   ],
   "id": "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:ml:r",
   "verificationMethod": [
+    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:AU#NhfB5%2FVnlXEuN3VwjlWDMYbpOA4%3D",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer#2XlWk1UQMqavMtLt-aX35q_q9snFtGgdjH4-Y1gfH1M",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fcovid19.quebec.ca%2FPreuveVaccinaleApi%2Fissuer#sZ5ca2a73SgPl7aC9v4PyA4cR5zk9A6BhHX8I2CVNwM",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fpvc.gov.nu.ca%2Fpvc#MXH6EAfEDZ0JH46r3j5axkCTo-QdreVtEXE-dbvydUU",
@@ -652,6 +653,7 @@
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:66d25512539d5a6d9d108c04c55b0a71f4cf60e4109de555dc7e46abc334bddc#66d25512539d5a6d9d108c04c55b0a71f4cf60e4109de555dc7e46abc334bddc",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:52c4328427fc2f275e60da87cf857fe09e809b3f696bd3c68f83d50d3924b921#52c4328427fc2f275e60da87cf857fe09e809b3f696bd3c68f83d50d3924b921",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:india#india",
+    "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:JP#arTykoK9lkf2%2FyoC95RNdJ6XhGM%3D",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:japan#f1vhQP9oOZkityrguynQqB4aVh8u9xcf3wm4AFF4aVw",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:https%3A%2F%2Fsenegal.tbi.ohms.oracle.com#VEccqX9LvPZJXqv11staEs0qPN2OR9bMS_PXEAZODXg",
     "did:web:raw.githubusercontent.com:WorldHealthOrganization:ddcc-trust:main:dist:prod:u:k:uae#uae",

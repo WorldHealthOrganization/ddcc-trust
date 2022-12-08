@@ -127,16 +127,23 @@ async function process(srcDir, dstDir, didRoot, signerKeyPair) {
     try {
       if (file.endsWith(".pem")) {
         console.log(colors.ok, file)
-        const kid = buildKid(file)
+        let kid = buildKid(file)
+
+        let controller = kid;
+        if (kid.includes("#")) {
+          controller = kid.split("#")[0]
+          kid = kid.split("#")[1]
+        } 
+
         const pem = fs.readFileSync(file, "utf8")
-        
+
         const wrappedJwks = wrapJwk(kid, pemToJwk(pem, certDict))
   
-        const unsignedDidURI =  didRoot+":u:k:"+kid
-        unsignedDIDs[unsignedDidURI] = await assembleWrite(unsignedDidURI, dstDir+"/u/k/"+kid, wrappedJwks)
+        const unsignedDidURI =  didRoot+":u:k:"+controller
+        unsignedDIDs[unsignedDidURI] = await assembleWrite(unsignedDidURI, dstDir+"/u/k/"+controller, wrappedJwks)
   
-        const signedDidURI =  didRoot+":s:k:"+kid
-        signedDIDs[signedDidURI] = await assembleSignWrite(signedDidURI, dstDir+"/s/k/"+kid, wrappedJwks, signerKeyPair)
+        const signedDidURI =  didRoot+":s:k:"+controller
+        signedDIDs[signedDidURI] = await assembleSignWrite(signedDidURI, dstDir+"/s/k/"+controller, wrappedJwks, signerKeyPair)
       }
   
       if (file.endsWith(".json")) {
